@@ -135,6 +135,18 @@ export default {
           },
         ],
       },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Titulo de primer nivel',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Inventarios de activos de red',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       {
