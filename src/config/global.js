@@ -1,7 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Recursos de la red de datos en las organizaciones',
+    descripcionCurso:
+      'Se explorarán los pilares fundamentales de las redes de datos, desde la verificación de conectividad hasta la comprensión de las topologías y la importancia de un inventario detallado. Así, los profesionales en el área de redes estarán mejor preparados para enfrentar desafíos actuales y futuros que implican la gestión de las redes en un mundo más interconectado y digitalizado.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -31,13 +32,18 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Titulo',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Titulo',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Titulo',
+            hash: 't_1_2',
           },
         ],
       },
@@ -47,12 +53,87 @@ export default {
         numero: '2',
         titulo: 'Titulo de primer nivel',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Titulo',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Titulo',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Titulo',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
         titulo: 'Titulo de primer nivel',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Titulo',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Titulo',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Titulo',
+            hash: 't_3_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Titulo de primer nivel',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Titulo',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Titulo',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Titulo',
+            hash: 't_4_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Titulo de primer nivel',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Titulo',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo: 'Titulo',
+            hash: 't_5_2',
+          },
+        ],
       },
     ],
     subMenu: [
