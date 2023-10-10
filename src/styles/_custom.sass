@@ -29,6 +29,201 @@
   width: 500px !important
   padding-bottom: 0rem !important
   padding-top: 5rem !important
+
+// ESTILOS GLOBALES ----------------------------------
+
+.tarjeta-gris-degrade
+  background: linear-gradient(0deg,#DEDEDE,#FFFFFF,#FFFFFF,#DEDEDE)
+  position: relative
+  margin-top: -10%
+
+
+
+// ESTILOS TEMA 1 --------------------------------------------------------------
+
+.bg-titulo1
+  background-image: url("../assets/curso/temas/tema1/bg-titulo1.svg")
+  background-repeat: no-repeat
+  background-size: 20% 80%
+  @media (min-width: 700px) and (max-width: 991px)
+    background-size: 50% 100%
+  @media (max-width: 600px)
+    background-size: 80% 100%
+
+.bg-titulo2
+  background-image: url("../assets/curso/temas/tema1/bg-titulo2.svg")
+  background-repeat: no-repeat
+  background-size: 26% 80%
+  @media (min-width: 700px) and (max-width: 991px)
+    background-size: 50% 100%
+  @media (max-width: 600px)
+    background-size: 80% 100%
+
+// TEMA 1 ----------------------------------------------------
+
+.bg-fondo1
+  position: relative
+  .row, figure, p, h3,
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: 90px
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/tema1/bg1.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top 
+    @media (max-width: 991px)
+      background-repeat: no-repeat
+
+.img3-tm1
+  width: 50%
+  @media (max-width: 500px)
+    width: 100%
+
+.bg-fondo2
+  position: relative
+  .row, figure, p, h3,
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: 90px
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/tema1/bg2.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top 
+    @media (max-width: 991px)
+      background-repeat: no-repeat
+
+.height-tarjeta
+  height: 360px
+  @media (min-width: 700px) and (max-width: 991px)
+    height: 360px
+  @media (max-width: 690px)
+    height: auto
+
+.tarjeta-azul2
+  background-color: #12263F
+
+.tarjeta-gris1
+  background-color: #F8F8F8
+  border-top-right-radius: 50px
+  border-bottom-left-radius: 50px
+  position: relative
+  height: 250px
+  width: 780px
+  right: 60%
+  @media (max-width: 991px)
+    right: 0%
+    height: auto
+    width: auto
+
+.img26-tm1
+  max-width: 150%
+  width: 111%
+  position: relative
+  right: 5%
+  @media (max-width: 991px)
+    right: 0%
+    width: 100%
+
+.img27-tm1
+  max-width: 150%
+  width: 111%
+  @media (max-width: 991px)
+    width: 100%
+
+.img28-tm1
+  position: relative
+  left: 5%
+  @media (max-width: 991px)
+    left: 0%
+    width: 100%
+
+.tarjeta-azul3
+  background-color: #12263F
+  position: relative
+  margin-top: -70%
+  right: 8%
+  @media (min-width: 700px) and (max-width: 991px)
+    margin-top: -60%
+    right: 8%
+  @media (max-width: 690px)
+    margin-top: -66%
+    right: 10%
+
+
+.tarjeta-verde1
+  background-color: #4ADBD1
+  position: relative
+  margin-top: -20%
+  margin-top: -70%
+  right: 1%
+  @media (min-width: 700px) and (max-width: 991px)
+    margin-top: -60%
+    right: 8%
+  @media (max-width: 690px)
+    margin-top: -66%
+    right: 10%
+
+.tarjeta-azul4
+  background-color: #12263F
+  position: relative
+  margin-top: -70%
+  left: 7%
+  @media (min-width: 700px) and (max-width: 991px)
+    margin-top: -60%
+    left: 0%
+  @media (max-width: 690px)
+    margin-top: -66%
+    left: -10%
+
+
+.bloque-texto-g.color-adicional-1
+  background-color: #12263F
+
+.tarjeta--azul2
+  background-color: #ffffff
+  background-image: url("../assets/curso/temas/tema1/bg-fondo1.png") !important
+  background-repeat: no-repeat
+
+
+// ESTILOS TEMA 2 -------------------------------------------------------
+
+.tarjeta.color-blanca--borde
+  background-color: #5573c6
+  border: solid 2px #ffffff
+
+.tarjeta.color-blanca--borde2
+  background-color: #4ADBD1
+  border: solid 2px #ffffff
+
+.tarjeta-borde-azul
+  background-color: #EDF1F9
+  border: solid 2px #5573C6
+  height: 100px
+
+.tarjeta-borde-verde
+  background-color: #ECFCFB
+  border: solid 2px #4ADBD1
+  height: 128px
+
+.cajon.color-acento-contenido
+    background-color: #E8FFFD
+
+
+
+
+
+
+
 .cajon-amarillo
   background-color: #FFFAD8
   &::before
@@ -60,10 +255,13 @@
   background-repeat: no-repeat
   background-size: 100% 100%
 
-.tarjeta-gris-degrade
-  background: linear-gradient(0deg,#DEDEDE,#FFFFFF,#FFFFFF,#DEDEDE)
-  position: relative
-  margin-top: -10%
+
+
+
+
+
+
+
 
 ///// SLyder A tipo B Custom --------------------------------------
 .slyder-a__tipo-b .slyder-a__btn--atrs
@@ -98,3 +296,4 @@
       position: relative
       margin-right: 7PX
       font-size: 1.4rem
+

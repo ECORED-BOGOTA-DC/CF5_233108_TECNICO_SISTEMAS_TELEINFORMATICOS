@@ -32,17 +32,17 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo',
+        titulo: 'Concepto de red de datos',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo',
+            titulo: '¿Qué son los recursos de una red?',
             hash: 't_1_1',
           },
           {
             numero: '1.2',
-            titulo: 'Titulo',
+            titulo: '¿Cómo se hace el dimensionamiento de recursos?',
             hash: 't_1_2',
           },
         ],
@@ -51,22 +51,22 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Componentes de red',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'Titulo',
+            titulo: 'Definición de los componentes de una red de datos',
             hash: 't_2_1',
           },
           {
             numero: '2.2',
-            titulo: 'Titulo',
+            titulo: 'Implementación de una red de datos local',
             hash: 't_2_2',
           },
           {
             numero: '2.3',
-            titulo: 'Titulo',
+            titulo: 'Tipos de medios de Transmisión para redes',
             hash: 't_2_3',
           },
         ],
@@ -74,22 +74,22 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Conectividad de la red',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '3.1',
-            titulo: 'Titulo',
+            titulo: 'Pruebas de conectividad',
             hash: 't_3_1',
           },
           {
             numero: '3.2',
-            titulo: 'Titulo',
+            titulo: 'Pruebas de desempeño',
             hash: 't_3_2',
           },
           {
             numero: '3.3',
-            titulo: 'Titulo',
+            titulo: 'Esquemas de redundancia',
             hash: 't_3_3',
           },
         ],
@@ -97,22 +97,22 @@ export default {
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Estructura de una red de datos',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '4.1',
-            titulo: 'Titulo',
+            titulo: 'Topologías de redes',
             hash: 't_4_1',
           },
           {
             numero: '4.2',
-            titulo: 'Titulo',
+            titulo: 'Redes inalámbricas',
             hash: 't_4_2',
           },
           {
             numero: '4.3',
-            titulo: 'Titulo',
+            titulo: 'Pruebas sobre redes inalámbricas',
             hash: 't_4_3',
           },
         ],
@@ -120,17 +120,17 @@ export default {
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Inventarios de activos de red',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '5.1',
-            titulo: 'Titulo',
+            titulo: 'Sistemas de información de inventarios',
             hash: 't_5_1',
           },
           {
             numero: '5.2',
-            titulo: 'Titulo',
+            titulo: 'Tipos de bases de datos para inventarios',
             hash: 't_5_2',
           },
         ],
@@ -195,31 +195,104 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Redes de datos inalámbricas',
+      referencia:
+        'Ilyas, M. (2017). The handbook of ad hoc wireless networks. CRC Press.',
+      tipo: 'Libro',
+      link: 'https://acortar.link/zYRbao',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'ENIAC',
+      significado:
+        'Electronic Numerical Integrator and Computer: primer computador programable a gran escala.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'RAM',
+      significado: 'memoria de acceso aleatorio.',
+    },
+    {
+      termino: 'VGA',
+      significado:
+        'video graphics Array, puerto de conexión de las pantallas de un computador.',
+    },
+    {
+      termino: 'DVI',
+      significado:
+        'digital video interface, puerto de conexión de las pantallas de un computador.',
+    },
+    {
+      termino: 'HDMI',
+      significado:
+        'high-definition multimedia interface, puerto de conexión de las pantallas de un computador.',
+    },
+    {
+      termino: 'USB',
+      significado:
+        'universal serial bus, puerto de conexión serial de los computadores.',
+    },
+    {
+      termino: 'AAA',
+      significado: 'listas de control de acceso.',
+    },
+    {
+      termino: 'CPU',
+      significado: 'unidad central de procesamiento.',
+    },
+    {
+      termino: 'DIMM',
+      significado: 'módulo de memoria dual en línea.',
+    },
+    {
+      termino: 'LCD',
+      significado: 'pantalla de cristal líquido.',
+    },
+    {
+      termino: 'CMOS',
+      significado:
+        'semiconductor complementario de óxido metálico o complementary metal-oxide-semiconductor.',
+    },
+    {
+      termino: 'GNU',
+      significado: 'general public license: licencia pública general de GNU.',
+    },
+    {
+      termino: 'SO',
+      significado: 'sistema operativo.',
+    },
+    {
+      termino: 'ITIL',
+      significado: 'information technology infrastructure library.',
+    },
+    {
+      termino: 'ITSM',
+      significado: 'gestión de servicios de TI.',
+    },
+    {
+      termino: 'TDS',
+      significado: 'hoja de datos técnicos.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Kurose, J., & Ross, K. (2010). Computer networks: A top-down approach featuring the internet.',
+      link: '',
+    },
+    {
+      referencia:
+        'Peterson, L. L., & Davie, B. S. (2007). Computer networks: a systems approach. Elsevier.',
+      link: '',
+    },
+    {
+      referencia:
+        'Eronen, A. (2009). Signal processing methods for audio classification and music content analysis.',
+      link: '',
+    },
+    {
+      referencia:
+        'Fitzek, F. H., & Katz, M. D. (2013). Mobile clouds: Exploiting distributed resources in wireless, mobile and social networks. John Wiley & Sons.',
       link: '',
     },
   ],
