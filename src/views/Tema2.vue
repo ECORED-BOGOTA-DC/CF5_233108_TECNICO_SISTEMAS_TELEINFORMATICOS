@@ -36,7 +36,7 @@
         .cajon.cajon-amarillo.p-4.mb-3
           p.mb-0 Para comprender mejor los requisitos de la conectividad, tenemos que ver más de cerca cómo se conectan los computadores en una red. La conectividad de red se presenta en varios niveles. Estos incluyen el nivel más bajo, donde dos o más computadoras se conectan directamente mediante cables o fibra óptica, y el nivel más alto, donde las redes se extienden a través de múltiples enlaces físicos y nodos, incluyendo conexiones inalámbricas.
 
-        p A veces, un nodo es una pieza más especializada de hardware en lugar de un ordenador, pero pasamos por alto esa distinción a efectos de esta discusión. Los enlaces físicos se limitan a veces a un par de nodos (se dice que un enlace es punto a punto), mientras que en otros casos más de dos nodos pueden compartir un único enlace físico (se dice que un enlace es de acceso múltiple). Los enlaces inalámbricos, como los proporcionados por las redes celulares y las redes Wifi, son una clase cada vez más importante de enlaces de acceso múltiple. A menudo, los enlaces de acceso múltiple tienen un tamaño limitado, tanto en lo que respecta a la distancia geográfica que pueden cubrir como al número de nodos que pueden conectar.
+        p A veces, un nodo es una pieza más especializada de <i>hardware</i> en lugar de un ordenador, pero pasamos por alto esa distinción a efectos de esta discusión. Los enlaces físicos se limitan a veces a un par de nodos (se dice que un enlace es punto a punto), mientras que en otros casos más de dos nodos pueden compartir un único enlace físico (se dice que un enlace es de acceso múltiple). Los enlaces inalámbricos, como los proporcionados por las redes celulares y las redes Wifi, son una clase cada vez más importante de enlaces de acceso múltiple. A menudo, los enlaces de acceso múltiple tienen un tamaño limitado, tanto en lo que respecta a la distancia geográfica que pueden cubrir como al número de nodos que pueden conectar.
 
     p.mb-5 Si las redes de computadores se limitaran a situaciones en las que todos los nodos estuvieran conectados directamente entre sí, a través de un medio físico común, las redes estarían muy limitadas en cuanto al número de ordenadores que podrían conectar, o el número de cables que saldrían de la parte trasera de cada nodo se volvería rápidamente inmanejable y muy costoso. Afortunadamente, la conectividad entre dos nodos no implica necesariamente una conexión física directa entre ellos. Considere el ejemplo siguiente de cómo un conjunto de ordenadores puede estar conectado indirectamente.
 
@@ -49,7 +49,7 @@
         figure
           img(src='@/assets/curso/temas/tema2/img3.svg', alt='Imágen decorativa')
 
-    p.mb-5 La figura 10 muestra un conjunto de nodos, cada uno de los cuales está conectado a uno o más enlaces punto a punto. Los nodos que están conectados al menos dos enlaces ejecutan un software que reenvía los datos recibidos en un enlace a otro. Si se organizan de forma sistemática, estos nodos de reenvío forman una red conmutada. Existen numerosos tipos de redes conmutadas, de los cuales los dos más comunes son:
+    p.mb-5 La figura 10 muestra un conjunto de nodos, cada uno de los cuales está conectado a uno o más enlaces punto a punto. Los nodos que están conectados al menos dos enlaces ejecutan un <i>software</i> que reenvía los datos recibidos en un enlace a otro. Si se organizan de forma sistemática, estos nodos de reenvío forman una red conmutada. Existen numerosos tipos de redes conmutadas, de los cuales los dos más comunes son:
 
     .row.justify-content-center.align-items-center
       .col-lg-10.mb-3
@@ -234,7 +234,7 @@
 
       .col-lg-5
         .tarjeta-gris1.p-3.px-5(data-aos="fade-left")
-          p.mt-lg-4 Pero basta de hablar de las compañías aéreas. Centrémonos ahora en los protocolos de red. Para estructurar el diseño de los protocolos de red, los diseñadores de redes organizan los protocolos -y el hardware y el software de red que los implementan- en capas. Cada protocolo pertenece a una de las capas, al igual que cada función de la arquitectura de la aerolínea de la figura 12 pertenecía a una capa. También nos interesan los servicios que una capa ofrece a la capa superior, el llamado modelo de servicio de una capa. Al igual que en nuestro ejemplo de la aerolínea, cada capa proporciona su servicio:
+          p.mt-lg-4 Pero basta de hablar de las compañías aéreas. Centrémonos ahora en los protocolos de red. Para estructurar el diseño de los protocolos de red, los diseñadores de redes organizan los protocolos -y el <i>hardware</i> y el <i>software</i> de red que los implementan- en capas. Cada protocolo pertenece a una de las capas, al igual que cada función de la arquitectura de la aerolínea de la figura 12 pertenecía a una capa. También nos interesan los servicios que una capa ofrece a la capa superior, el llamado modelo de servicio de una capa. Al igual que en nuestro ejemplo de la aerolínea, cada capa proporciona su servicio:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4
@@ -261,10 +261,10 @@
     .row.justify-content-center.align-items-center.mb-5
       AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul3")
         .row(titulo="Capa de protocolo")
-          p Puede implementarse en software, en hardware o en una combinación de ambos. Los protocolos de la capa de aplicación -como HTTP y SMTP- se implementan casi siempre en software en los sistemas finales; lo mismo ocurre con los protocolos de la capa de transporte. Dado que las capas físicas y de enlace de datos son las responsables de gestionar la comunicación a través de un enlace específico, suelen implementarse en una tarjeta de interfaz de red (por ejemplo, tarjetas de interfaz Ethernet o WiFi) asociada a un enlace determinado. 
+          p Puede implementarse en <i>software</i>, en <i>hardware</i> o en una combinación de ambos. Los protocolos de la capa de aplicación -como HTTP y SMTP- se implementan casi siempre en <i>software</i> en los sistemas finales; lo mismo ocurre con los protocolos de la capa de transporte. Dado que las capas físicas y de enlace de datos son las responsables de gestionar la comunicación a través de un enlace específico, suelen implementarse en una tarjeta de interfaz de red (por ejemplo, tarjetas de interfaz Ethernet o WiFi) asociada a un enlace determinado. 
 
         .row(titulo="Capa de red ")
-          p Suele ser una implementación mixta de hardware y software. También hay que tener en cuenta que, al igual que las funciones de la arquitectura de la aerolínea en capas se distribuyen entre los distintos aeropuertos y centros de control de vuelo que conforman el sistema, también un protocolo de capa n se distribuye entre los sistemas finales, los conmutadores de paquetes y otros componentes que conforman la red. Es decir, a menudo hay una parte de un protocolo de capa n en cada uno de estos componentes de la red.
+          p Suele ser una implementación mixta de <i>hardware</i> y <i>software</i>. También hay que tener en cuenta que, al igual que las funciones de la arquitectura de la aerolínea en capas se distribuyen entre los distintos aeropuertos y centros de control de vuelo que conforman el sistema, también un protocolo de capa n se distribuye entre los sistemas finales, los conmutadores de paquetes y otros componentes que conforman la red. Es decir, a menudo hay una parte de un protocolo de capa n en cada uno de estos componentes de la red.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-lg-4
@@ -318,7 +318,7 @@
                 h4.mb-5 Capa de aplicación
                 p La capa de aplicación aloja aplicaciones y protocolos de red, incluyendo HTTP (solicitudes web), SMTP (mensajes de correo) y FTP (transferencia de archivos). Funciones como traducción de nombres de dominio (DNS) también se realizan en esta capa. Los protocolos de aplicación permiten el intercambio de mensajes entre sistemas finales, distribuyéndose a través de ellos.
               
-              .col-md-4
+              .col-md-5
                 figure
                   img(src='@/assets/curso/temas/tema2/img16.svg', alt='Imágen decorativa')
 
@@ -327,7 +327,7 @@
                 h4.mb-5 Capa de transporte
                 p La capa de transporte en Internet mueve mensajes entre aplicaciones. Existen dos protocolos: TCP y UDP. TCP ofrece conexión, garantizando entrega y control de flujo. Divide mensajes largos en segmentos y controla la congestión. UDP no tiene conexión, sin fiabilidad, control de flujo ni control de congestión.
               
-              .col-md-4
+              .col-md-5
                 figure
                   img(src='@/assets/curso/temas/tema2/img17.svg', alt='Imágen decorativa')
 
@@ -336,7 +336,7 @@
                 h4.mb-5 Capa de red
                 p La capa de red en Internet transporta paquetes conocidos como datagramas entre hosts utilizando el Protocolo IP. El protocolo de transporte (TCP o UDP) pasa segmentos y dirección de destino a la capa de red. Esta última se encarga de entregar los segmentos al destino. La capa de red también incluye protocolos de enrutamiento para determinar rutas entre fuentes y destinos. IP es el principal protocolo que une Internet, y a veces se le denomina capa IP.
               
-              .col-md-4
+              .col-md-5
                 figure
                   img(src='@/assets/curso/temas/tema2/img18.svg', alt='Imágen decorativa')
 
@@ -345,7 +345,7 @@
                 h4.mb-5 Capa de enlace
                 p La capa de enlace pasa el datagrama a la capa de red en el siguiente nodo. Los servicios dependen del protocolo específico utilizado en el enlace, como Ethernet, Wifi o el Protocolo Punto a Punto PPP. Algunos protocolos de enlace ofrecen entrega fiable en un enlace, a diferencia de TCP que lo hace entre sistemas finales. Los datagramas pueden ser manejados por diferentes protocolos de enlace en su ruta.
               
-              .col-md-4
+              .col-md-5
                 figure
                   img(src='@/assets/curso/temas/tema2/img19.svg', alt='Imágen decorativa')
 
@@ -354,7 +354,7 @@
                 h4.mb-5 Capa física
                 p La capa física mueve bits dentro de una trama de nodo a nodo. Los protocolos dependen del enlace y medio de transmisión, como Ethernet con distintos protocolos para cable de cobre, coaxial y fibra óptica. Cada caso implica un desplazamiento de bits diferente en el enlace.
               
-              .col-md-4
+              .col-md-5
                 figure
                   img(src='@/assets/curso/temas/tema2/img20.svg', alt='Imágen decorativa')
 

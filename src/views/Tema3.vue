@@ -161,7 +161,7 @@
 
       .col-lg-5
         .tarjeta-gris4.p-4(data-aos="fade-left")
-          p Un ping (Packet Internet o Inter-Network Groper) es un programa básico de Internet que permite a un usuario probar y verificar si una determinada dirección IP de destino existe y puede aceptar peticiones en la administración de redes informáticas. El acrónimo fue inventado para coincidir con el término de los submarinistas para el sonido de un pulso de sonar devuelto. El ping también se utiliza para diagnosticar que un ordenador anfitrión al que el usuario está tratando de llegar está funcionando. Cualquier sistema operativo (OS) con capacidad de red, incluyendo la mayoría del software de administración de red integrado, puede usar ping. Por ejemplo, para encontrar la dirección de punto, como 205.245.172.72, para cualquier nombre de dominio dado, los usuarios de Windows pueden ir a la pantalla del símbolo del sistema (start/run/cmd) e introducir ping xxxxx.yyy, donde xxxxx es el nombre de dominio de segundo nivel, como "whatis", e yyy es el nombre de dominio de primer nivel, como "com".
+          p Un ping (Packet Internet o Inter-Network Groper) es un programa básico de Internet que permite a un usuario probar y verificar si una determinada dirección IP de destino existe y puede aceptar peticiones en la administración de redes informáticas. El acrónimo fue inventado para coincidir con el término de los submarinistas para el sonido de un pulso de sonar devuelto. El ping también se utiliza para diagnosticar que un ordenador anfitrión al que el usuario está tratando de llegar está funcionando. Cualquier sistema operativo (OS) con capacidad de red, incluyendo la mayoría del <i>software</i> de administración de red integrado, puede usar ping. Por ejemplo, para encontrar la dirección de punto, como 205.245.172.72, para cualquier nombre de dominio dado, los usuarios de Windows pueden ir a la pantalla del símbolo del sistema (start/run/cmd) e introducir ping xxxxx.yyy, donde xxxxx es el nombre de dominio de segundo nivel, como "whatis", e yyy es el nombre de dominio de primer nivel, como "com".
 
     .row.justify-content-center.align-items-center.mb-5
       h5.text-center.mb-0 En la figura 19 de muestra el resultado de la prueba ping entre un computador y un servidor de internet.
@@ -191,7 +191,7 @@
           img(src='@/assets/curso/temas/tema3/img11.svg', alt='Imágen decorativa')
 
     separador
-    #t_3_2.titulo-segundo.color-acento-contenido(data-aos='fade-up-right')
+    #t_3_2.titulo-segundo.color-acento-botones(data-aos='fade-up-right')
        h2 3.2 Pruebas de desempeño
 
     .row.justify-content-center.align-items-center.mb-5
@@ -200,7 +200,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img12.svg')})`}"
         )
         .bloque-texto-g1__texto.p-4(data-aos="flip-down")
-          p.mb-0 Las pruebas de desempeño se realizan a través de herramientas de software de escritorio o aplicaciones móviles. Usando el comando ping, se puede realizar la medición del tiempo de respuesta de los paquetes que se envían de un transmisor a un receptor. La premisa es que si el tiempo de respuesta aumenta es porque hay una degradación en el medio de transmisión. Si la conexión es por cable, cabe la posibilidad de que el cable este doblado o roto. Si la conexión es por wifi, puede ser que existan interferencia en el canal inalámbrico. 
+          p.mb-0 Las pruebas de desempeño se realizan a través de herramientas de <i>software</i> de escritorio o aplicaciones móviles. Usando el comando ping, se puede realizar la medición del tiempo de respuesta de los paquetes que se envían de un transmisor a un receptor. La premisa es que si el tiempo de respuesta aumenta es porque hay una degradación en el medio de transmisión. Si la conexión es por cable, cabe la posibilidad de que el cable este doblado o roto. Si la conexión es por wifi, puede ser que existan interferencia en el canal inalámbrico. 
 
     .row.justify-content-center.align-items-center.mb-5
       h5.text-center.mb-0 A continuación, se muestra una gráfica del comportamiento de un enlace inalámbrico.
@@ -301,7 +301,7 @@
         p Básicamente, la redundancia de la red garantiza que haya múltiples caminos para las transmisiones de datos a través de la red. <b style= 'color:#5573C6;'>Si un camino falla o no está disponible, siempre hay un camino alternativo de una entidad de red a otra</b>. Con las redes celulares, la redundancia de la red también significa poder conectarse a varios computadores de redes móviles en el mismo país. Utilizando la tecnología adecuada, esta redundancia permite que sus dispositivos se conecten a la mejor señal dondequiera que se despliegue. Cuanta más redundancia tenga su red, menos riesgo suponen los fallos de red para su organización y sus servicios. Su red no depende de un solo componente o función porque hay otros recursos en espera. Si una pieza se estropea, se sustituye, en lugar de que toda la red se caiga con ella.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-7
+      .col-lg-8
         LineaTiempoD.color-acento-contenido
           .row(numero="1" titulo="¿Por qué la redundancia de la red es fundamental para las redes de datos?")
             p Para la mayoría de las organizaciones empresariales, una sola hora de inactividad de la red cuesta 300.000 dólares o más. (Un estudio de 2016 descubrió que un solo minuto de tiempo de inactividad no planificado podría costar más de 17.000 dólares). Cada minuto que sus servicios están fuera de línea, está perdiendo miles de dólares, dañando la reputación de su marca y frustrando a sus clientes. En las aplicaciones de empresa a empresa, las interrupciones pueden dañar también los ingresos y la reputación de sus clientes, ya que su tiempo de inactividad se convierte en el de ellos.
@@ -315,10 +315,87 @@
 
             p Puede (y debe) incorporar redundancia a su aplicación, pero también querrá buscar proveedores de conectividad que diseñen teniendo en cuenta la redundancia de la red.
 
-      .col-10.col-lg-5
+      .col-10.col-lg-4
         figure
           img(src='@/assets/curso/temas/tema3/img19.svg', alt='Imágen decorativa')
 
+    .row.bg-titulo1.align-items-center.p-2.mb-5
+      h3.mb-3.mt-2 Redundancia geográfica
+
+    p.mb-5 La infraestructura de red tiene que ocupar un espacio físico. Los centros de datos tienen que vivir en algún sitio. Para las empresas que dependen de la infraestructura interna, esto crea algunos desafíos. 
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-6.col-lg-2
+        figure
+          img(src='@/assets/curso/temas/tema3/img20.svg', alt='Imágen decorativa')
+
+      .col-lg-8
+        .tarjeta-azul2.p-4
+          p.mb-0 
+            | <b style= 'color:#4ADBD1;'>¿Qué ocurre cuando su centro de datos se queda sin energía? ¿O si hay una catástrofe natural que dañe sus equipos? ¿O si hay una amenaza de ciberseguridad? </b>
+            span.text-white Poner todos sus recursos en una ubicación geográfica crea un riesgo significativo de posibles fallos en la red. También puede aumentar la latencia a medida que se despliega más lejos de su centro de datos (las señales de red tienen que viajar más lejos).
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8
+        p Los proveedores de <b style= 'color:#5573C6;'>IaaS</b> y las empresas de nivel empresarial utilizan zonas de disponibilidad para crear <b style= 'color:#5573C6;'>redundancia geográfica</b>. Cada zona de disponibilidad puede contener varios centros de datos, y los recursos de red pueden compartirse entre zonas. Pueden utilizar instancias duplicadas de una zona de disponibilidad para que sirvan de copia de seguridad de otra. Esto garantiza que las catástrofes, los errores, los fallos, los ataques y otros problemas que se produzcan en una sola ubicación geográfica no crearán interrupciones significativas del servicio. 
+
+        .cajon.cajon-amarillo.p-4
+          p.mb-0 Si un centro de datos o una zona de disponibilidad entera se caen, siempre hay una copia de seguridad en otra ubicación, para que sus usuarios ni siquiera noten la interrupción.
+      
+      .col-10.col-lg-4
+        figure
+          img(src='@/assets/curso/temas/tema3/img21.svg', alt='Imágen decorativa')
+
+    .row.bg-titulo3.align-items-center.p-2.mb-5
+      h3.mb-3.mt-2 Redundancia de operadores de red
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-7
+        figure(data-aos="fade-right")
+          img(src='@/assets/curso/temas/tema3/img22.svg', alt='Imágen decorativa')
+
+      .col-lg-5
+        .tarjeta-gris4.p-4(data-aos="fade-left")
+          p Con una tarjeta SIM tradicional, tu dispositivo sólo puede conectarse a un operador de red específico y a los operadores con los que tiene acuerdos de itinerancia. Cuando estás en el país de tu operador, sólo puedes conectarte a su red. Eso significa que a veces tienes que tolerar una mala señal e interrupciones del servicio. Y cuando estás en itinerancia, siempre vas a tener que pagar <b style= 'color:#5573C6;'>tarifas de roaming</b> por los datos que utilices.
+
+          p Además, cuando necesitas desplegar en un país en el que tu operador no tiene acuerdos de itinerancia (o las normas gubernamentales impiden la itinerancia permanente), tienes que conseguir un nuevo contrato con otro operador, <b style= 'color:#5573C6;'>instalar nuevas SIM</b>, utilizar potencialmente nuevos módems y componentes, y crear múltiples SKU para el mismo producto.
+
+    .row.bg-titulo3.align-items-center.p-2.mb-5
+      h3.mb-3.mt-2 Modelos de redundancia de red
+
+    .row.justify-content-center.align-items-center.my-5
+      .tarjeta.tarjeta--blanca.bg-slyderA.p-5
+        SlyderA(tipo="b")
+          .row.justify-content-center.align-items-center
+            .col-md-6.mb-4.mb-md-0
+              h4.mb-5 Activo/Activo
+              p La arquitectura <b>activo/activo</b> utiliza dos instancias con la misma funcionalidad y distribuye los datos entre estas instancias, manteniendo constantemente sincronizada la información de estado. Cada vez que una instancia de la red se interrumpe, el sistema la cambia automáticamente a otra instancia de la red.
+            
+            .col-md-5
+              figure
+                img(src='@/assets/curso/temas/tema3/img23.svg', alt='Imágen decorativa')
+
+          .row.justify-content-center.align-items-center
+            .col-md-6.mb-4.mb-md-0
+              h4.mb-5 Activo/Pasivo
+              p Al igual que una arquitectura Activo/Activo, una arquitectura Activo/Pasivo utiliza dos instancias, una de las cuales puede servir como copia de seguridad. Sin embargo, en una red Activo/Pasivo, las copias son "pasivas". No se ejecutan de forma sincronizada con la red activa, y sólo inician el servicio cuando los recursos de la red primaria fallan. Este modelo utiliza menos recursos para funcionar, pero tiene un gran inconveniente: cuando se necesitan las copias de seguridad, hay que restablecer las conexiones y los dispositivos tienen que volver a un estado anterior.
+            
+            .col-md-5
+              figure
+                img(src='@/assets/curso/temas/tema3/img24.svg', alt='Imágen decorativa')
+
+          .row.justify-content-center.align-items-center
+            .col-md-6.mb-4.mb-md-0
+              h4.mb-5 Red de doble anillo
+              p En una red en anillo, todos los nodos (servidores, bases de datos, dispositivos, etc.) están unidos en un círculo. Cada nodo se conecta a dos nodos adyacentes. Una transmisión de un nodo a otro tiene que pasar por todos los nodos intermedios. El problema de una red en anillo es que, si un solo nodo falla, rompe el círculo e impide que las transmisiones lleguen a su destino. Los paquetes de datos se encuentran esencialmente en un callejón sin salida cuando llegan al nodo que no está disponible. (Piensa en una cadena de luces de Navidad que deja de funcionar cuando se apaga una bombilla).
+            
+            .col-md-5
+              figure
+                img(src='@/assets/curso/temas/tema3/img25.svg', alt='Imágen decorativa')
+
+    .row.justify-content-center.align-items-center.mb-5
+      .cajon.color-primario.p-4
+        p.mb-0 Una red de doble anillo crea un bucle adicional que permite que las transmisiones "den la vuelta" dentro del bucle. Cuando los paquetes de datos viajan por la red y llegan a un nodo no disponible, vuelven a recorrer el anillo en sentido contrario hasta llegar al nodo deseado.
 
 
 

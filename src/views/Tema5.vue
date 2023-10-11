@@ -15,7 +15,7 @@
         .bloque-texto-g__texto.p-4
           p.mb-0 <b style="color: #5573C6">¿Qué es una herramienta de gestión y supervisión de redes?</b>
           <br>
-          p Las herramientas de gestión y supervisión de redes se definen como plataformas de software locales o basadas en la nube que se conectan con los componentes de la red y otros sistemas de TI para medir, analizar e informar sobre la topología, el rendimiento y el estado de la red. 
+          p Las herramientas de gestión y supervisión de redes se definen como plataformas de <i>software</i> locales o basadas en la nube que se conectan con los componentes de la red y otros sistemas de TI para medir, analizar e informar sobre la topología, el rendimiento y el estado de la red. 
 
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-8
@@ -43,7 +43,7 @@
 
         div(x="61.7%" y="30%" tooltip="tooltip de max 35 caracteres" numero="3")
           h5 Mayor seguridad
-          p La gestión y la supervisión de la red pueden revelar anomalías en tiempo real. En algunos casos, estas anomalías indican un comportamiento sospechoso de los usuarios o un software malicioso que ha traspasado el perímetro de la red. 
+          p La gestión y la supervisión de la red pueden revelar anomalías en tiempo real. En algunos casos, estas anomalías indican un comportamiento sospechoso de los usuarios o un <i>software</i> malicioso que ha traspasado el perímetro de la red. 
 
         div(x="62.6%" y="68.5%" tooltip="tooltip de max 35 caracteres" numero="4")
           h5 Reducción de costes
@@ -69,7 +69,7 @@
             .col-5
               img(src='@/assets/curso/temas/tema5/img6.svg' alt='AvatarTop')
           h5.text-center Amplia compatibilidad
-          p.text-center La herramienta debe ser compatible con la mayor variedad posible de redes y componentes de infraestructura informática. Esto incluye aplicaciones de software y dispositivos de red basados en hardware (por ejemplo, un cortafuegos físico o un dispositivo de seguridad). 
+          p.text-center La herramienta debe ser compatible con la mayor variedad posible de redes y componentes de infraestructura informática. Esto incluye aplicaciones de <i>software</i> y dispositivos de red basados en hardware (por ejemplo, un cortafuegos físico o un dispositivo de seguridad). 
       
         .tarjeta.color-acento-botones.p-4.w_t_s
           .row.justify-content-center.mb-3
