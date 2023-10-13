@@ -12,25 +12,25 @@
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/img1.svg')})`}"
         )
-        .bloque-texto-g__texto.p-4
+        .bloque-texto-g__texto.p-4(data-aos="flip-down")
           p.mb-0 <b style="color: #5573C6">¿Qué es una herramienta de gestión y supervisión de redes?</b>
           <br>
           p Las herramientas de gestión y supervisión de redes se definen como plataformas de <i>software</i> locales o basadas en la nube que se conectan con los componentes de la red y otros sistemas de TI para medir, analizar e informar sobre la topología, el rendimiento y el estado de la red. 
 
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-8
-        .cajon.cajon-amarillo.p-4
+        .cajon.cajon-amarillo.p-4(data-aos="flip-up")
           p La red constituye la columna vertebral de la infraestructura de una empresa moderna. Conecta múltiples sitios operativos, dispositivos y sistemas para mantener en funcionamiento las operaciones en línea. Todo, desde su presencia empresarial basada en la web hasta la colaboración virtual y el desarrollo de aplicaciones. Una herramienta de gestión y supervisión de la red visualiza la topología de la red mediante mapas interactivos, supervisa las métricas críticas en tiempo real y genera informes ad hoc y programados para ofrecer una conectividad ininterrumpida. 
 
-        p.mt-3 Existen diversas razones por las cuales las empresas deciden invertir en la gestión y supervisión de su red. Entre estas, destacan la optimización del ancho de banda para un mejor rendimiento de aplicaciones, la mejora de la seguridad, la reducción de costes operativos y la capacidad de escalar sin problemas. A continuación, exploraremos algunas de estas motivaciones en el siguiente recurso informativo.
+        p.mt-3(data-aos="fade-right") Existen diversas razones por las cuales las empresas deciden invertir en la gestión y supervisión de su red. Entre estas, destacan la optimización del ancho de banda para un mejor rendimiento de aplicaciones, la mejora de la seguridad, la reducción de costes operativos y la capacidad de escalar sin problemas. A continuación, exploraremos algunas de estas motivaciones en el siguiente recurso informativo.
       .col-lg-4
         figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema5/img2.svg', alt='imagen decorativa')
 
-    .row.justify-content-center.align-items-center.mt-5
+    .row.justify-content-center.align-items-center.mt-5(data-aos="fade-right")
       ImagenInfograficaB.color-acento-botones
         template(v-slot:imagen)
-          figure(data-aos="fade-right")
+          figure
             img(src='@/assets/curso/temas/tema5/img3.png', alt='Texto que describa la imagen')
       
         div(x="20.2%" y="57.8%" tooltip="tooltip de max 35 caracteres" numero="1")
@@ -54,7 +54,7 @@
           p La gestión de la red correctamente gobernada impulsará la estandarización entre los puntos finales conectados, los usuarios y los componentes de la red. Esta estandarización facilita el escalado de las redes empresariales según las necesidades y el despliegue de las políticas de red sin fragmentación.
 
     .row.justify-content-center.align-items-center.mt-5
-      p En consecuencia, las herramientas de gestión y supervisión de la red son fundamentales para las funciones de TI de las empresas. Observe  las características clave de estas herramientas que ayudan a conseguir las ventajas mencionadas. 
+      p(data-aos="fade-left") En consecuencia, las herramientas de gestión y supervisión de la red son fundamentales para las funciones de TI de las empresas. Observe  las características clave de estas herramientas que ayudan a conseguir las ventajas mencionadas. 
 
       SlyderF(columnas="col-lg-6 col-xl-4").bg1-tema5
         .tarjeta.color-acento-botones.p-4.w_t_s
@@ -94,7 +94,7 @@
       
 
     separador
-    #t_5_1.titulo-segundo.color-acento-botones
+    #t_5_1.titulo-segundo.color-acento-botones(data-aos='fade-up-right')
         h2 5.1 Sistemas de información de inventarios          
     
     .row.justify-content-center.align-items-center.mb-5
@@ -121,12 +121,12 @@
                     i.fas.fa-file-download
 
     separador
-    #t_5_2.titulo-segundo.color-acento-botones
+    #t_5_2.titulo-segundo.color-acento-botones(data-aos='fade-up-right')
         h2 5.2 Tipos de bases de datos para inventarios
 
     .row.justify-content-center.align-items-center
-      p <b style="color: #5573C6">¿Qué es una base de datos de inventario?</b>
-      p La base de datos de inventario es un depósito centralizado para todos los datos de inventario de una organización. Una base de datos para el sistema de gestión de inventarios permite equilibrar los costos y los riesgos del inventario con las métricas de rendimiento del inventario deseadas. Algunos de ellos son:
+      p(data-aos="fade-right") <b style="color: #5573C6">¿Qué es una base de datos de inventario?</b>
+      p(data-aos="fade-left") La base de datos de inventario es un depósito centralizado para todos los datos de inventario de una organización. Una base de datos para el sistema de gestión de inventarios permite equilibrar los costos y los riesgos del inventario con las métricas de rendimiento del inventario deseadas. Algunos de ellos son:
 
     .row.justify-content-center.align-items-center.bg3-tema5
       .col-12.p-4
