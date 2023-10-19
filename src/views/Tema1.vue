@@ -74,7 +74,7 @@
         p(data-aos="fade-left") A veces no se obtiene ninguna respuesta a una pregunta, en cuyo caso se suele renunciar a preguntar la hora a esa persona. Hay que tener en cuenta que en <b>nuestro protocolo humano</b> hay mensajes específicos que enviamos y acciones específicas que realizamos en respuesta a los mensajes de respuesta recibidos u otros eventos <b style= 'color:#5573C6;'>(como la falta de respuesta en un tiempo determinado)</b>. Está claro que los mensajes transmitidos y recibidos, y las acciones que se llevan a cabo cuando se envían o reciben estos mensajes o se producen otros eventos, desempeñan un papel central en un protocolo humano. 
 
     .cajon.color-acento-contenido.p-4.mb-5(data-aos="flip-up")
-      p.mb-0 Si las personas ejecutan protocolos diferentes (por ejemplo, si una persona tiene modales, pero la otra no, o si una entiende el concepto de tiempo y la otra no) los protocolos no interoperan y no se puede realizar ningún trabajo útil. Lo mismo ocurre en las redes: se necesitan dos (o más) entidades comunicantes que ejecuten el mismo protocolo para realizar una tarea.
+      p.mb-0 Si las personas ejecutan protocolos diferentes (por ejemplo, si una persona tiene modales, pero la otra no, o si una entiende el concepto de tiempo y la otra no) los protocolos no inter operan y no se puede realizar ningún trabajo útil. Lo mismo ocurre en las redes: se necesitan dos (o más) entidades comunicantes que ejecuten el mismo protocolo para realizar una tarea.
 
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-left")
@@ -88,6 +88,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
+        p(data-aos="fade-right") Consideremos una segunda analogía humana.
         p(data-aos="fade-right") Supongamos que estás en una clase universitaria <b style= 'color:#5573C6;'>(una clase de redes informáticas</b>, por ejemplo). El profesor le habla de los prototipos y usted está confundido. El profesor se detiene para preguntar: <b>"¿Hay alguna pregunta?"</b>. (un mensaje que se transmite a todos los alumnos que no están durmiendo y que ellos reciben). <b style= 'color:#5573C6;'>Tú levantas la mano</b> (transmitiendo un mensaje implícito al profesor). Tu profesor te reconoce con <b style= 'color:#5573C6;'>una sonrisa</b>, diciendo <b style= 'color:#5573C6;'>"Sí..."</b> (un mensaje transmitido que te anima a hacer tu pregunta -a los profesores les encanta que les hagan preguntas-), y entonces haces tu pregunta (es decir, transmites tu mensaje a tu profesor). Tu profesor escucha tu pregunta (recibe tu mensaje de pregunta) y responde (te transmite una respuesta). Una vez más, vemos que la transmisión y la recepción de mensajes, así como un conjunto de acciones convencionales que se llevan a cabo cuando se envían y reciben estos mensajes, son el núcleo de este protocolo de preguntas y respuestas.
 
       .col-10.col-lg-5
@@ -97,7 +98,7 @@
     .row.bg-titulo1.align-items-center.p-2.mb-5(data-aos="fade-left")
       h3.mb-3.mt-2 Protocolos de red
 
-    p.mb-5(data-aos="fade-right") Un protocolo de red es similar a un protocolo humano, salvo que las entidades que intercambian mensajes y realizan acciones son componentes de <b style= 'color:#5573C6;'><i>hardware</i> o <i>software</i></b> de algún dispositivo (por ejemplo, computador, teléfono móvil, router u otro dispositivo con capacidad de red). Toda actividad en Internet que implique a dos o más entidades remotas en comunicación se rige por un protocolo. A continuación, se invita ver el siguiente ejemplo:
+    p.mb-5(data-aos="fade-right") Un protocolo de red es similar a un protocolo humano, salvo que las entidades que intercambian mensajes y realizan acciones son componentes de <b style= 'color:#5573C6;'><i>hardware</i> o <i>software</i></b> de algún dispositivo (por ejemplo, computador, teléfono móvil, <i>router</i> u otro dispositivo con capacidad de red). Toda actividad en Internet que implique a dos o más entidades remotas en comunicación se rige por un protocolo. A continuación, se invita ver el siguiente ejemplo:
 
     .bg-fondo2
       .row.justify-content-center.align-items-center.mb-5
@@ -134,7 +135,7 @@
                   
                   h4.text-center Protocolo en los <i>routers</i>
 
-                  p.text-center ¿Cómo se compara su desempeño con el de sus pares y competidores?
+                  p.text-center Determinan la ruta de un paquete desde el origen hasta el destino. Los protocolos funcionan en todas partes en Internet.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5.mb-3(data-aos="flip-left")
@@ -168,7 +169,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
-        p(data-aos="fade-right") Anteriormente hemos presentado una visión general de alto nivel de Internet y de los protocolos de trabajo en red. Ahora vamos a profundizar un poco más en <b style= 'color:#5573C6;'>los componentes de una red informática (y de Internet, en particular)</b>. En esta parte comenzaremos por el extremo de la red y veremos los componentes con los que estamos más familiarizados, es decir, los computadores, teléfonos móviles y otros dispositivos que utilizamos a diario.
+        p(data-aos="fade-right") Anteriormente, hemos presentado una visión general de alto nivel de Internet y de los protocolos de trabajo en red. Ahora vamos a profundizar un poco más en <b style= 'color:#5573C6;'>los componentes de una red informática (y de Internet, en particular)</b>. En esta parte comenzaremos por el extremo de la red y veremos los componentes con los que estamos más familiarizados, es decir, los computadores, teléfonos móviles y otros dispositivos que utilizamos a diario.
 
         .row.justify-content-center.align-items-center(data-aos="flip-down")
           .col-6.col-lg-3.mb-3
@@ -184,7 +185,7 @@
         figure
           img(src='@/assets/curso/temas/tema1/img14.svg', alt='Imágen decorativa')
 
-    p.mb-5(data-aos="fade-right") Los sistemas finales de Internet incluyen computadores de mesa (por ejemplo, PCs de mesa, Macs y equipos Linux), servidores (por ejemplo, servidores web y de correo electrónico) y computadores móviles (por ejemplo, computadores portátiles y teléfonos con conexiones inalámbricas a la red). Además, cada vez hay más dispositivos alternativos que se conectan a Internet como sistemas finales. En la siguiente figura se puede observar un ejemplo:
+    p.mb-5(data-aos="fade-right") Los sistemas finales de Internet incluyen computadores de mesa (por ejemplo, PC de mesa, Mac y equipos Linux), servidores (por ejemplo, servidores web y de correo electrónico) y computadores móviles (por ejemplo, computadores portátiles y teléfonos con conexiones inalámbricas a la red). Además, cada vez hay más dispositivos alternativos que se conectan a Internet como sistemas finales. En la siguiente figura se puede observar un ejemplo:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-left")
       .col-lg-10
@@ -197,7 +198,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
-        p(data-aos="fade-right") En el contexto del <i>software</i> de red, hay otra definición de cliente y servidor. <b style= 'color:#5573C6;'>Un programa cliente</b> es un programa que se ejecuta en un sistema final que solicita y recibe un servicio de un <b style= 'color:#5573C6;'>programa servidor</b> que se ejecuta en otro sistema final. La Web, el correo electrónico, la transferencia de archivos, el acceso remoto, los grupos de noticias y muchas otras aplicaciones populares adoptan el <b>modelo cliente-servidor.</b> Dado que un programa cliente suele ejecutarse en un ordenador y el programa servidor en otro, las aplicaciones de Internet cliente-servidor son, por definición, <b>aplicaciones distribuidas.</b> El programa cliente y el programa servidor interactúan enviándose mensajes a través de Internet. En este nivel de abstracción, los routers, enlaces y otros elementos de Internet sirven colectivamente como <b>una caja negra</b> que transfiere mensajes entre los componentes distribuidos y comunicados de una aplicación de Internet.
+        p(data-aos="fade-right") En el contexto del <i>software</i> de red, hay otra definición de cliente y servidor. <b style= 'color:#5573C6;'>Un programa cliente</b> es un programa que se ejecuta en un sistema final que solicita y recibe un servicio de un <b style= 'color:#5573C6;'>programa servidor</b> que se ejecuta en otro sistema final. La Web, el correo electrónico, la transferencia de archivos, el acceso remoto, los grupos de noticias y muchas otras aplicaciones populares adoptan el <b>modelo cliente-servidor.</b> Dado que un programa cliente suele ejecutarse en un ordenador y el programa servidor en otro, las aplicaciones de Internet cliente-servidor son, por definición, <b>aplicaciones distribuidas.</b> El programa cliente y el programa servidor interactúan enviándose mensajes a través de Internet. En este nivel de abstracción, los <i>routers</i>, enlaces y otros elementos de Internet sirven colectivamente como <b>una caja negra</b> que transfiere mensajes entre los componentes distribuidos y comunicados de una aplicación de Internet.
 
       .col-10.col-lg-4
         figure
@@ -221,7 +222,7 @@
           img(src='@/assets/curso/temas/tema1/img3.svg', alt='Imágen decorativa').img3-tm1
       
       .col-10.col-lg-11
-        p(data-aos="fade-left") Una vez consideradas las aplicaciones y los sistemas finales en el "borde de la red", vamos a considerar las redes de acceso, es decir, los enlaces físicos que conectan un sistema final con el primer router (también conocido como <b>"router de borde"</b>) en una ruta desde el sistema final a cualquier otro sistema final distante. La figura 5 muestra varios tipos de enlaces de acceso desde el sistema final hasta el router de borde; los enlaces de acceso están resaltados con líneas gruesas y sombreadas.
+        p(data-aos="fade-left") Una vez consideradas las aplicaciones y los sistemas finales en el "borde de la red", vamos a considerar las redes de acceso, es decir, los enlaces físicos que conectan un sistema final con el primer <i>router</i> (también conocido como <b>"<i>router</i> de borde"</b>) en una ruta desde el sistema final a cualquier otro sistema final distante. La figura 5 muestra varios tipos de enlaces de acceso desde el sistema final hasta el <i>router</i> de borde; los enlaces de acceso están resaltados con líneas gruesas y sombreadas.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-lg-4
@@ -262,7 +263,7 @@
         .cajon.cajon-amarillo.p-4.mb-3(data-aos="flip-up")
           p.mb-0 En los años 90, casi todos los usuarios residenciales accedían a Internet a través de líneas telefónicas analógicas ordinarias utilizando un módem de acceso telefónico. Hoy en día, muchos usuarios de países subdesarrollados y de zonas rurales de países desarrollados (donde no se dispone de acceso de banda ancha) siguen accediendo a Internet por vía telefónica. De hecho, se calcula que el 10% de los usuarios residenciales de Estados Unidos utilizaban la conexión telefónica en 2008.
 
-        p(data-aos="fade-right") El término <B>"dial-up"</B> se emplea porque el <i>software</i> del usuario realmente marca el número de teléfono de un ISP y realiza una conexión telefónica tradicional con el ISP (por ejemplo, con AOL). Como se muestra en la Figura 6, el <b style= 'color:#5573C6;'>PC está conectado a un módem de marcación</b>, que a su vez está conectado a la <b style= 'color:#5573C6;'>línea telefónica analógica de la casa</b>. Esta línea telefónica analógica está formada por un cable de cobre de par trenzado y es la misma línea telefónica que se utiliza para hacer llamadas normales. El módem doméstico convierte la salida digital del PC en un formato analógico adecuado para su transmisión por la línea telefónica analógica. En el otro extremo de la conexión, un módem en el ISP convierte la señal analógica de nuevo en formato digital para su entrada en el router del ISP.
+        p(data-aos="fade-right") El término <B>"dial-up"</B> se emplea porque el <i>software</i> del usuario realmente marca el número de teléfono de un ISP y realiza una conexión telefónica tradicional con el ISP (por ejemplo, con AOL). Como se muestra en la Figura 6, el <b style= 'color:#5573C6;'>PC está conectado a un módem de marcación</b>, que a su vez está conectado a la <b style= 'color:#5573C6;'>línea telefónica analógica de la casa</b>. Esta línea telefónica analógica está formada por un cable de cobre de par trenzado y es la misma línea telefónica que se utiliza para hacer llamadas normales. El módem doméstico convierte la salida digital del PC en un formato analógico adecuado para su transmisión por la línea telefónica analógica. En el otro extremo de la conexión, un módem en el ISP convierte la señal analógica de nuevo en formato digital para su entrada en el <i>router</i> del ISP.
 
       .col-10.col-lg-4
         figure
@@ -278,7 +279,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/img22.svg', alt='Imágen decorativa')
           
-        p Es insoportablemente lento, con una velocidad máxima de 56 kbps. A 56 kbps, se tarda aproximadamente ,ocho minutos en descargar una canción MP3 de tres minutos y varios días en descargar una película de 1 Gbyte. 
+        p Es insoportablemente lento, con una velocidad máxima de 56 kbps. A 56 kbps, se tarda aproximadamente, ocho minutos en descargar una canción MP3 de tres minutos y varios días en descargar una película de 1 Gbyte. 
 
       .col-md.tarjeta.color-primario.p-5(data-aos="fade-up-left")
         .row.justify-content-center.mb-4
@@ -436,7 +437,7 @@
           img(src='@/assets/curso/temas/tema1/img3.svg', alt='Imágen decorativa').img3-tm1
       
       .col-10.col-lg-11
-        p(data-aos="fade-left") La fibra óptica puede ofrecer velocidades de transmisión mucho mayores que el cable de cobre de par trenzado o el cable coaxial. Algunas empresas de telecomunicaciones locales (en muchos países), que han instalado recientemente fibra óptica desde sus centrales hasta los hogares, ofrecen ahora acceso a Internet de alta velocidad, así como servicios tradicionales de teléfono y televisión a través de las fibras ópticas. En Estados Unidos, Verizon ha sido especialmente agresiva con la FTTH con su servicio FIOS. En Colombia empresas como ETB, Movistar, tiene la capacidad de instalar fibra óptica como tecnología de acceso.
+        p(data-aos="fade-left") La fibra óptica puede ofrecer velocidades de transmisión mucho mayores que el cable de cobre de par trenzado o el cable coaxial. Algunas empresas de telecomunicaciones locales (en muchos países), que han instalado recientemente fibra óptica desde sus centrales hasta los hogares, ofrecen ahora acceso a Internet de alta velocidad, así como servicios tradicionales de teléfono y televisión a través de las fibras ópticas. En Estados Unidos, Verizon ha sido especialmente agresiva con la FTTH con su servicio FIOS. En Colombia, empresas como ETB, Movistar, tiene la capacidad de instalar fibra óptica como tecnología de acceso.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
@@ -451,7 +452,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .cajon.cajon-amarillo.p-4(data-aos="flip-up")
-        p.mb-0 El divisor combina un número de hogares (normalmente menos de 100) en una única fibra óptica compartida, que se conecta a un terminador de línea óptica (OLT) en la centralita de la empresa de telecomunicaciones. El OLT, que realiza la conversión entre las señales ópticas y eléctricas, se conecta a Internet a través de un router de la empresa de telecomunicaciones. En el hogar, los usuarios conectan un router doméstico (normalmente un router inalámbrico) a la ONT y acceden a Internet a través de este router doméstico. En la arquitectura PON, todos los paquetes enviados desde la OLT al divisor se replican en el divisor (de forma similar a una cabecera de cable).
+        p.mb-0 El divisor combina un número de hogares (normalmente menos de 100) en una única fibra óptica compartida, que se conecta a un terminador de línea óptica (OLT) en la centralita de la empresa de telecomunicaciones. El OLT, que realiza la conversión entre las señales ópticas y eléctricas, se conecta a Internet a través de un <i>router</i> de la empresa de telecomunicaciones. En el hogar, los usuarios conectan un <i>router</i> doméstico (normalmente un <i>router</i> inalámbrico) a la ONT y acceden a Internet a través de este <i>router</i> doméstico. En la arquitectura PON, todos los paquetes enviados desde la OLT al divisor se replican en el divisor (de forma similar a una cabecera de cable).
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-left")
       .col-lg-7

@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-botones
           h2 Recursos de la red de datos en las organizaciones
-        p.mb-4 Evaluar el nivel de comprensión y aplicabilidad de las estrategias de Recursos para determinar la gestión de las redes de datos en las Organizaciones.
+        p.mb-4 Evaluar el nivel de comprensión y aplicabilidad de las estrategias de Recursos para determinar la gestión de las redes de datos en las organizaciones.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

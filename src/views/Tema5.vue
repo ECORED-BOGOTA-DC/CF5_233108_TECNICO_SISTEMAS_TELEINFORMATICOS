@@ -54,7 +54,7 @@
           p La gestión de la red correctamente gobernada impulsará la estandarización entre los puntos finales conectados, los usuarios y los componentes de la red. Esta estandarización facilita el escalado de las redes empresariales según las necesidades y el despliegue de las políticas de red sin fragmentación.
 
     .row.justify-content-center.align-items-center.mt-5
-      p(data-aos="fade-left") En consecuencia, las herramientas de gestión y supervisión de la red son fundamentales para las funciones de TI de las empresas. Observe  las características clave de estas herramientas que ayudan a conseguir las ventajas mencionadas. 
+      p(data-aos="fade-left") En consecuencia, las herramientas de gestión y supervisión de la red son fundamentales para las funciones de TI de las empresas. Observe  las características clave de estas herramientas que ayudan a conseguir las ventajas mencionadas:
 
       SlyderF(columnas="col-lg-6 col-xl-4").bg1-tema5
         .tarjeta.color-acento-botones.p-4.w_t_s
@@ -116,7 +116,7 @@
                 .col.mb-3.mb-sm-0.text-white
                   p.text-small Anexo. Herramientas para información de inventarios.
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo1_ herramientas_para_informacion_de_inventarios.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
@@ -308,7 +308,7 @@
                 figure(data-aos="fade-right")
                   img(src='@/assets/curso/temas/tema5/img15.png', alt='Texto que describa la imagen')
               .col-md-8.mb-4.mb-md-0
-                p <b style="color: #5573C6"></b>
+                p <b style="color: #5573C6">Análisis avanzados</b>
 
                 ul.lista-ul--color.fa-ul2
                   li 

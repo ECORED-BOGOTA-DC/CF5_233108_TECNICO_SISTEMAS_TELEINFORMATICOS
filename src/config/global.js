@@ -66,7 +66,7 @@ export default {
           },
           {
             numero: '2.3',
-            titulo: 'Tipos de medios de Transmisión para redes',
+            titulo: 'Tipos de medios de transmisión para redes',
             hash: 't_2_3',
           },
         ],

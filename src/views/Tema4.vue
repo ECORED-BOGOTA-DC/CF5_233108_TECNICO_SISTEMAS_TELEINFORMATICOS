@@ -64,7 +64,7 @@
 
       .col-lg-10
         .cajon.cajon-amarillo.p-4(data-aos="flip-up")
-          p.mb-0 Las topologías lógicas pueden reconfigurarse dinámicamente mediante equipos especiales, como los routers y los conmutadores.
+          p.mb-0 Las topologías lógicas pueden reconfigurarse dinámicamente mediante equipos especiales, como los <i>routers</i>s y los conmutadores.
 
       separador
       #t_4_1.titulo-segundo.color-acento-botones(data-aos='fade-up-right')
@@ -174,7 +174,7 @@
       p(data-aos="fade-left") Aunque <i>Bluetooth</i> sigue siendo la tecnología de comunicación de corto alcance más utilizada en los dispositivos móviles actuales, como teléfonos fijos y <i>smartphones</i>, IEEE 802.11 está ganando terreno en los dispositivos móviles más avanzados, como los <i>smartphones</i>. A continuación, examinaremos la definición de cada una de ellas:
 
     TabsB.color-primario
-      .py-4.py-md-5(titulo="The splendor of the mystery" :icono="require('@/assets/curso/temas/tema4/img14.svg')")
+      .py-4.py-md-5(titulo="<i>Bluetooth</i>" :icono="require('@/assets/curso/temas/tema4/img14.svg')")
         .row.justify-content-center.align-items-center       
           .col-md-5
             figure
@@ -183,7 +183,7 @@
           .col-md-7.mb-4.mb-md-0
             p Es una tecnología de radio que opera en la banda de 2,4 GHz. Se suele denominar tecnología de <b style= 'color:#5573C6;'>comunicación de corto alcance</b>, ya que el rango de comunicación es relativamente pequeño en comparación con los sistemas celulares. El alcance de la comunicación viene determinado por la clase de potencia del módulo <b style= 'color:#5573C6;'><i>Bluetooth</i></b>. Existen tres clases diferentes de <i>Bluetooth</i>: <b>clase 1, clase 2 y clase 3.</b> Los dispositivos de clase 1 pueden tener un alcance de comunicación de hasta 100 metros, mientras que los de clase 2 y 3 están limitados a 10 metros o menos de un metro, respectivamente. La mayoría de los dispositivos móviles son de clase 2, mientras que los puntos de acceso <i>Bluetooth</i> son de clase 1. Los sistemas <i>Bluetooth</i> se componen de una parte de radio/banda base y una pila de <i>software.</i>
 
-      .py-4.py-md-5(titulo="The splendor of the mystery" :icono="require('@/assets/curso/temas/tema4/img16.svg')")
+      .py-4.py-md-5(titulo="IEEE 802.11" :icono="require('@/assets/curso/temas/tema4/img16.svg')")
         .row.justify-content-center.align-items-center       
           .col-md-5
             figure
@@ -213,7 +213,7 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-down")
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/123456789" title="Comunicación de marketing digital" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/O28a6MHzWGw" title="Comunicación de marketing digital" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.justify-content-center.align-items-center.mb-5
       .col-6.col-lg-2(data-aos="fade-right")
