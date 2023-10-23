@@ -194,7 +194,7 @@
           span Sistemas finales de la red
 
         figure
-          img(src='@/assets/curso/temas/tema1/img15.svg', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema1/img15.png', alt='Imágen decorativa')
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8

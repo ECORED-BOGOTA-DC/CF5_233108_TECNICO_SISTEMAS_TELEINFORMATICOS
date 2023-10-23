@@ -404,7 +404,7 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-down")
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/123456789" title="Comunicación de marketing digital" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/nI4Zb8UjXsM" title="CConfiguración de una red de dos computadores" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     h5.text-center.mb-5 Revise imágenes de la configuración a continuación:
 

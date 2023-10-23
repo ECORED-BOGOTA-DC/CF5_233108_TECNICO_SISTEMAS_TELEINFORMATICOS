@@ -33,23 +33,23 @@
           figure
             img(src='@/assets/curso/temas/tema5/img3.png', alt='Texto que describa la imagen')
       
-        div(x="20.2%" y="57.8%" tooltip="tooltip de max 35 caracteres" numero="1")
+        div(x="20.2%" y="57.8%" tooltip="" numero="1")
           h5 Optimización del ancho de banda
           p Las empresas pueden supervisar cómo los diferentes dispositivos, usuarios, aplicaciones y hosts utilizan el ancho de banda disponible en la red. Pueden aplicar políticas para optimizar el uso del ancho de banda de cada entidad para reducir la presión general sobre la red. 
 
-        div(x="45.6%" y="32%" tooltip="tooltip de max 35 caracteres" numero="2")
+        div(x="45.6%" y="32%" tooltip="" numero="2")
           h5 Mejoras en rendimiento de aplicaciones
           p Dependiendo de su entorno, las empresas pueden determinar qué aplicaciones tienen un buen rendimiento y requieren una infraestructura de red configurada de forma diferente. Pueden alinear la configuración de la red de manera que mejore el rendimiento de las aplicaciones. 
 
-        div(x="61.7%" y="30%" tooltip="tooltip de max 35 caracteres" numero="3")
+        div(x="61.7%" y="30%" tooltip="" numero="3")
           h5 Mayor seguridad
           p La gestión y la supervisión de la red pueden revelar anomalías en tiempo real. En algunos casos, estas anomalías indican un comportamiento sospechoso de los usuarios o un <i>software</i> malicioso que ha traspasado el perímetro de la red. 
 
-        div(x="62.6%" y="68.5%" tooltip="tooltip de max 35 caracteres" numero="4")
+        div(x="62.6%" y="68.5%" tooltip="" numero="4")
           h5 Reducción de costes
           p Las empresas pueden vigilar sus inversiones en la red, el rendimiento de las aplicaciones y los resultados empresariales correspondientes para identificar cualquier ineficiencia en el entorno. Al eliminar estas ineficiencias, pueden desbloquear el ahorro de costes. 
 
-        div(x="74.9%" y="56.9%" tooltip="tooltip de max 35 caracteres" numero="5")
+        div(x="74.9%" y="56.9%" tooltip="" numero="5")
           h5 Escalabilidad sin fisuras
           p La gestión de la red correctamente gobernada impulsará la estandarización entre los puntos finales conectados, los usuarios y los componentes de la red. Esta estandarización facilita el escalado de las redes empresariales según las necesidades y el despliegue de las políticas de red sin fragmentación.
 
