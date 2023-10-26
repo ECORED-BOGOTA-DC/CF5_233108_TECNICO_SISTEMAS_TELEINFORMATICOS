@@ -20,7 +20,7 @@
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-8
         .cajon.cajon-amarillo.p-4(data-aos="flip-up")
-          p La red constituye la columna vertebral de la infraestructura de una empresa moderna. Conecta múltiples sitios operativos, dispositivos y sistemas para mantener en funcionamiento las operaciones en línea. Todo, desde su presencia empresarial basada en la web hasta la colaboración virtual y el desarrollo de aplicaciones. Una herramienta de gestión y supervisión de la red visualiza la topología de la red mediante mapas interactivos, supervisa las métricas críticas en tiempo real y genera informes ad hoc y programados para ofrecer una conectividad ininterrumpida. 
+          p La red constituye la columna vertebral de la infraestructura de una empresa moderna. Conecta múltiples sitios operativos, dispositivos y sistemas para mantener en funcionamiento las operaciones en línea. Todo, desde su presencia empresarial basada en la web hasta la colaboración virtual y el desarrollo de aplicaciones. Una herramienta de gestión y supervisión de la red visualiza la topología de la red mediante mapas interactivos, supervisa las métricas críticas en tiempo real y genera informes <i>ad hoc</i> y programados para ofrecer una conectividad ininterrumpida. 
 
         p.mt-3(data-aos="fade-right") Existen diversas razones por las cuales las empresas deciden invertir en la gestión y supervisión de su red. Entre estas, destacan la optimización del ancho de banda para un mejor rendimiento de aplicaciones, la mejora de la seguridad, la reducción de costes operativos y la capacidad de escalar sin problemas. A continuación, exploraremos algunas de estas motivaciones en el siguiente recurso informativo.
       .col-lg-4
@@ -35,7 +35,7 @@
       
         div(x="20.2%" y="57.8%" tooltip="" numero="1")
           h5 Optimización del ancho de banda
-          p Las empresas pueden supervisar cómo los diferentes dispositivos, usuarios, aplicaciones y hosts utilizan el ancho de banda disponible en la red. Pueden aplicar políticas para optimizar el uso del ancho de banda de cada entidad para reducir la presión general sobre la red. 
+          p Las empresas pueden supervisar cómo los diferentes dispositivos, usuarios, aplicaciones y <i>hosts</i> utilizan el ancho de banda disponible en la red. Pueden aplicar políticas para optimizar el uso del ancho de banda de cada entidad para reducir la presión general sobre la red. 
 
         div(x="45.6%" y="32%" tooltip="" numero="2")
           h5 Mejoras en rendimiento de aplicaciones
@@ -295,7 +295,7 @@
 
                   li 
                     i.fas.fa-check-circle
-                    | Generación de informes programados y ad hoc sobre los KPI de inventario (por período, región, ubicación de almacenamiento, etc.).
+                    | Generación de informes programados y <i>ad hoc</i> sobre los KPI de inventario (por período, región, ubicación de almacenamiento, etc.).
 
 
                   li 

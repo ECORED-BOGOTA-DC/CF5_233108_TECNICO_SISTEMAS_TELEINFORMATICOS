@@ -23,7 +23,7 @@
           img(src='@/assets/curso/temas/tema1/img3.svg', alt='Imágen decorativa').img3-tm1
       
       .col-10.col-lg-11
-        p(data-aos="fade-left") Recordemos que un paquete comienza en un host (el origen), pasa por una serie de <i>routers</i>s y termina su viaje en otro host (el destino). Cuando un paquete viaja de un nodo (host o <i>router</i>) al siguiente nodo (host o <i>router</i>) a lo largo de este camino, el paquete sufre varios tipos de retrasos en cada nodo a lo largo del camino. Los más importantes son el retardo de procesamiento nodal, el <b>retardo de colas, el retardo de transmisión y el retardo de propagación</b>; juntos, estos retardos se acumulan para dar un retardo nodal total. Para comprender en profundidad la conmutación de paquetes y las redes informáticas, debemos entender la naturaleza e importancia de estos retrasos.
+        p(data-aos="fade-left") Recordemos que un paquete comienza en un <i>host</i> (el origen), pasa por una serie de <i>routers</i>s y termina su viaje en otro <i>host</i> (el destino). Cuando un paquete viaja de un nodo (<i>host</i> o <i>router</i>) al siguiente nodo (<i>host</i> o <i>router</i>) a lo largo de este camino, el paquete sufre varios tipos de retrasos en cada nodo a lo largo del camino. Los más importantes son el retardo de procesamiento nodal, el <b>retardo de colas, el retardo de transmisión y el retardo de propagación</b>; juntos, estos retardos se acumulan para dar un retardo nodal total. Para comprender en profundidad la conmutación de paquetes y las redes informáticas, debemos entender la naturaleza e importancia de estos retrasos.
 
     .row.bg-titulo1.align-items-center.p-2.mb-5(data-aos="fade-left")
       h3.mb-3.mt-2 Tipos de retraso
@@ -34,7 +34,7 @@
 
       .col-10.col-lg-6
         figure
-          img(src='@/assets/curso/temas/tema3/gif-1.gif', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema3/gif-1.gif', alt='Imagen animada que muestra el proceso de los tipos de retraso.')
 
     .row.justify-content-center.align-items-center.mb-5
       .cajon.cajon-amarillo.p-4(data-aos="flip-up")
@@ -92,7 +92,7 @@
 
       .col-10.col-lg-6
         figure
-          img(src='@/assets/curso/temas/tema3/gif-2.gif', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema3/gif-2.gif', alt='Imagen animada que muestra el proceso de la pérdida de paquetes.')
 
     .row.bg-titulo3.align-items-center.p-2.mb-5(data-aos="fade-left")
       h3.mb-3.mt-2 Rendimiento en las redes de computadores
@@ -111,12 +111,12 @@
               img(src='@/assets/curso/temas/tema1/img3.svg', alt='Imágen decorativa').img3-tm1
           
           .col-10.col-lg-11
-            p(data-aos="fade-left") Para definir el rendimiento, considere la transferencia de un archivo grande desde el host A al host B, a través de una red informática. Esta transferencia podría ser, por ejemplo, un <b>gran clip de vídeo de un compañero a otro</b> en un sistema de intercambio de archivos P2P.
+            p(data-aos="fade-left") Para definir el rendimiento, considere la transferencia de un archivo grande desde el <i>host</i> A al <i>host</i> B, a través de una red informática. Esta transferencia podría ser, por ejemplo, un <b>gran clip de vídeo de un compañero a otro</b> en un sistema de intercambio de archivos P2P.
 
-        p(data-aos="fade-left") El rendimiento instantáneo en cualquier instante de tiempo es la velocidad (en bits/s) a la que el host B recibe el archivo. (Muchas aplicaciones, incluyendo muchos sistemas de intercambio de archivos P2P, muestran el rendimiento instantáneo durante las descargas en la interfaz de usuario - ¡quizás lo hayas observado antes!). Si el archivo consta de F bits y la transferencia tarda T segundos en que el host B reciba todos los F bits, el rendimiento medio de la transferencia del archivo es F/T bits/s. Para algunas aplicaciones, como la telefonía por Internet, es deseable tener un retardo bajo y un rendimiento instantáneo consistente por encima de algún umbral (por ejemplo, más de 24 kbps para algunas aplicaciones de telefonía por Internet y más de 256 kbps para algunas aplicaciones de vídeo en tiempo real). Para otras aplicaciones, incluidas las de transferencia de archivos, el retardo no es crítico, pero es deseable tener el mayor rendimiento posible.
+        p(data-aos="fade-left") El rendimiento instantáneo en cualquier instante de tiempo es la velocidad (en bits/s) a la que el <i>host</i> B recibe el archivo. (Muchas aplicaciones, incluyendo muchos sistemas de intercambio de archivos P2P, muestran el rendimiento instantáneo durante las descargas en la interfaz de usuario - ¡quizás lo hayas observado antes!). Si el archivo consta de F bits y la transferencia tarda T segundos en que el <i>host</i> B reciba todos los F bits, el rendimiento medio de la transferencia del archivo es F/T bits/s. Para algunas aplicaciones, como la telefonía por Internet, es deseable tener un retardo bajo y un rendimiento instantáneo consistente por encima de algún umbral (por ejemplo, más de 24 kbps para algunas aplicaciones de telefonía por Internet y más de 256 kbps para algunas aplicaciones de vídeo en tiempo real). Para otras aplicaciones, incluidas las de transferencia de archivos, el retardo no es crítico, pero es deseable tener el mayor rendimiento posible.
 
     .row.justify-content-center.align-items-center.mb-5
-      p(data-aos="fade-right") Para comprender mejor el importante concepto de rendimiento, veamos algunos ejemplos. La figura 18(a) muestra dos sistemas finales, <b>un servidor y un cliente</b>, <b style= 'color:#5573C6;'>conectados por dos enlaces de comunicación y un <i>router</i></b>. Consideremos el rendimiento de una transferencia de archivos del servidor al cliente. Sea Rs la velocidad del enlace entre el servidor y el <i>router</i>, y Rc la velocidad del enlace entre el <i>router</i> y el cliente. Supongamos que los únicos bits que se envían en toda la red son los del servidor al cliente. Ahora nos preguntamos, en este escenario ideal, <b style= 'color:#5573C6;'>¿cuál es el rendimiento de servidor a cliente?</b> Para responder a esta pregunta, podemos pensar que los bits son fluidos y los enlaces de comunicación son tuberías. Está claro que el servidor no puede bombear bits a través de su enlace a una velocidad superior a Rs bps; y el <i>router</i> no puede reenviar bits a una velocidad superior a Rc bps. Si Rs < Rc, los bits bombeados por el servidor "fluirán" a través del <i>router</i> y llegarán al cliente a una velocidad de Rs bps, dando un rendimiento de Rs bps. Si, por el contrario, Rc < Rs, el <i>router</i> no podrá reenviar los bits tan rápido como los recibe. En este caso, los bits sólo saldrán del <i>router</i> a una velocidad Rc, dando un rendimiento de extremo a extremo de Rc. (Obsérvese también que, si los bits siguen llegando al <i>router</i> a una velocidad Rs, y siguen saliendo del <i>router</i> a Rc, la acumulación de bits en el <i>router</i> a la espera de ser transmitidos al cliente crecerá y crecerá, una situación muy poco deseable).
+      p(data-aos="fade-right") Para comprender mejor el importante concepto de rendimiento, veamos algunos ejemplos. La Figura 18 en la parte a muestra dos sistemas finales, <b>un servidor y un cliente</b>, <b style= 'color:#5573C6;'>conectados por dos enlaces de comunicación y un <i>router</i></b>. Consideremos el rendimiento de una transferencia de archivos del servidor al cliente. Sea Rs la velocidad del enlace entre el servidor y el <i>router</i>, y Rc la velocidad del enlace entre el <i>router</i> y el cliente. Supongamos que los únicos bits que se envían en toda la red son los del servidor al cliente. Ahora nos preguntamos, en este escenario ideal, <b style= 'color:#5573C6;'>¿cuál es el rendimiento de servidor a cliente?</b> Para responder a esta pregunta, podemos pensar que los bits son fluidos y los enlaces de comunicación son tuberías. Está claro que el servidor no puede bombear bits a través de su enlace a una velocidad superior a Rs bps; y el <i>router</i> no puede reenviar bits a una velocidad superior a Rc bps. Si Rs < Rc, los bits bombeados por el servidor "fluirán" a través del <i>router</i> y llegarán al cliente a una velocidad de Rs bps, dando un rendimiento de Rs bps. Si, por el contrario, Rc < Rs, el <i>router</i> no podrá reenviar los bits tan rápido como los recibe. En este caso, los bits sólo saldrán del <i>router</i> a una velocidad Rc, dando un rendimiento de extremo a extremo de Rc. (Obsérvese también que, si los bits siguen llegando al <i>router</i> a una velocidad Rs, y siguen saliendo del <i>router</i> a Rc, la acumulación de bits en el <i>router</i> a la espera de ser transmitidos al cliente crecerá y crecerá, una situación muy poco deseable).
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-left")
       .col-lg-8
@@ -125,7 +125,7 @@
           span Rendimiento para una prueba de FTP
       .col-lg-10
         figure
-          img(src='@/assets/curso/temas/tema3/img6.svg', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema3/img6.svg', alt='Figura que representa el rendimiento para una prueba de FTP, el cual se divide en la parte a y b.')
 
     p.mb-5(data-aos="fade-right") Así, para esta red simple de dos enlaces, el rendimiento es min {Rc, Rs}, es decir, es la velocidad de transmisión del enlace cuello de botella. Una vez determinado el rendimiento, podemos aproximar el tiempo que se tarda en transferir un archivo grande de F bits del servidor al cliente como F/min {Rs, Rc}. Para un ejemplo concreto, supongamos que se está descargando un archivo MP3 de F = 32 millones de bits, el servidor tiene una velocidad de transmisión de Rs = 2 Mbps, y se tiene un enlace de acceso de Rc = 1 Mbps. El tiempo necesario para transferir el archivo es entonces de 32 segundos. Por supuesto, estas expresiones de rendimiento y tiempo de transferencia son sólo aproximaciones, ya que no tienen en cuenta los problemas a nivel de paquetes y de protocolo.
 
@@ -136,7 +136,7 @@
 
       .col-lg-8(data-aos="fade-left")
         .tarjeta-azul2.p-4
-          p.mb-0.text-white La figura 18(b) muestra ahora una red con N enlaces entre el servidor y el cliente, siendo las velocidades de transmisión de los N enlaces R1, R2, ..., RN. Aplicando el mismo análisis que para la red de dos enlaces, encontramos que el rendimiento para una transferencia de archivos del servidor al cliente es min {R1, R2,...,RN}, que es, una vez más, la tasa de transmisión del enlace cuello de botella a lo largo de la ruta entre el servidor y el cliente.
+          p.mb-0.text-white La Figura 18 en la parte b muestra ahora una red con N enlaces entre el servidor y el cliente, siendo las velocidades de transmisión de los N enlaces R1, R2, ..., RN. Aplicando el mismo análisis que para la red de dos enlaces, encontramos que el rendimiento para una transferencia de archivos del servidor al cliente es min {R1, R2,...,RN}, que es, una vez más, la tasa de transmisión del enlace cuello de botella a lo largo de la ruta entre el servidor y el cliente.
 
     separador
     #t_3_1.titulo-segundo.color-acento-botones(data-aos='fade-up-right')
@@ -174,7 +174,7 @@
           span Prueba de ping
       .col-lg-10
         figure
-          img(src='@/assets/curso/temas/tema3/img10.svg', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema3/img10.svg', alt='Figura que muestra el resultado de la prueba ping entre un computador y un servidor de internet.')
 
     .row.justify-content-center.align-items-center.mb-5
       p(data-aos="fade-right") Considerando las características de la prueba, los parámetros a considerar son el tiempo de respuesta y la cantidad de paquetes perdidos. En la parte inferior se muestra la estadística de esta prueba. Para los resultados de la figura 19 se enviaron 7 paquetes, se recibieron 7 paquetes y el promedio del tiempo de respuesta fue 16.396 milisegundos.
@@ -188,7 +188,7 @@
           span Prueba de ping fallida
       .col-lg-10
         figure
-          img(src='@/assets/curso/temas/tema3/img11.svg', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema3/img11.svg', alt='Figura que representa una prueba de ping fallida.')
 
     separador
     #t_3_2.titulo-segundo.color-acento-botones(data-aos='fade-up-right')
@@ -214,7 +214,7 @@
           span Medición de los tiempos de respuesta
       .col-lg-11
         figure.mb-3
-          img(src='@/assets/curso/temas/tema3/img13.svg', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema3/img13.svg', alt='Figura que representa una gráfica del comportamiento de un enlace inalámbrico.')
 
       .col-lg-8
         p Los picos que se presentan son tiempos altos. Dado que el canal es inalámbrico y se está navegando por internet, pudieron ocurrir cuellos de botella que generaron estos tiempos altos.
@@ -234,7 +234,7 @@
             | <b style= 'color:#4ADBD1;'>la calidad del enlace</b>
             span.text-white , se puede usar una aplicación web, llamada <i>speed</i> test (Enlace: 
             | <a href="https://www.speedtest.net/es" target="_blank"><b style= 'color:#4ADBD1;'>https://www.speedtest.net/es)</b> </a> 
-            span.text-white Está herramienta mide los tiempos de respuesta y la calidad del ancho de banda. En la figura 22 se muestra el resultado de una medición de rutina.
+            span.text-white Esta herramienta mide los tiempos de respuesta y la calidad del ancho de banda. En la figura 22 se muestra el resultado de una medición de rutina.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-left")
       .col-lg-8
@@ -243,7 +243,7 @@
           span Medición de velocidad con una aplicación web
       .col-lg-11
         figure.mb-3
-          img(src='@/assets/curso/temas/tema3/img15.svg', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema3/img15.svg', alt='Figura que muestra el resultado de una medición de rutina.')
 
     .row.justify-content-center.align-items-center.mb-5
       p(data-aos="fade-right") En la figura 22, los datos obtenidos por las pruebas muestran, la velocidad de descarga del enlace, la velocidad de subida del enlace y un promedio de los tiempos de respuesta. Para la toma que muestra la figura 22, se infieren que el canal de Internet tiene buenas prestaciones tanto de subida (enviar correos electrónicos o subir archivos a la nube) como de bajada (ver videos o descargar archivos de la nube).
@@ -271,7 +271,7 @@
 
       .col-lg-8
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul2")
-          .row(titulo="Un cable <i>ethernet</i>")
+          .row(titulo="Un cable ethernet")
             p Conectarse directamente al módem siempre va a ser más rápido que una conexión inalámbrica. Cuando dependes de las ondas de radio del Wifi, te pones a merced de materiales como el ladrillo y la piedra, que las bloquearán, y de materiales como la cerámica y el hormigón, que las reflejarán por completo.
 
           .row(titulo="Una unidad de estado sólido (SSD)")
@@ -356,7 +356,7 @@
 
       .col-lg-5
         .tarjeta-gris4.p-4(data-aos="fade-left")
-          p Con una tarjeta SIM tradicional, tu dispositivo sólo puede conectarse a un operador de red específico y a los operadores con los que tiene acuerdos de itinerancia. Cuando estás en el país de tu operador, sólo puedes conectarte a su red. Eso significa que a veces tienes que tolerar una mala señal e interrupciones del servicio. Y cuando estás en itinerancia, siempre vas a tener que pagar <b style= 'color:#5573C6;'>tarifas de roaming</b> por los datos que utilices.
+          p Con una tarjeta SIM tradicional, tu dispositivo sólo puede conectarse a un operador de red específico y a los operadores con los que tiene acuerdos de itinerancia. Cuando estás en el país de tu operador, sólo puedes conectarte a su red. Eso significa que a veces tienes que tolerar una mala señal e interrupciones del servicio. Y cuando estás en itinerancia, siempre vas a tener que pagar <b style= 'color:#5573C6;'>tarifas de <i>roaming</i></b> por los datos que utilices.
 
           p Además, cuando necesitas desplegar en un país en el que tu operador no tiene acuerdos de itinerancia (o las normas gubernamentales impiden la itinerancia permanente), tienes que conseguir un nuevo contrato con otro operador, <b style= 'color:#5573C6;'>instalar nuevas SIM</b>, utilizar potencialmente nuevos módems y componentes, y crear múltiples SKU para el mismo producto.
 

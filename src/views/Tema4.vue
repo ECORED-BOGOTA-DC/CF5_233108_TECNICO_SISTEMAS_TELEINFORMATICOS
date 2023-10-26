@@ -57,7 +57,7 @@
             p Viene determinada por los dispositivos activos de la red y los medios de comunicación, como el tipo de cable, el nivel de control o la tolerancia a los fallos deseada y los costos relacionados con su infraestructura pasiva y activa.
 
           .row(numero="2" titulo="La topología lógica")
-            p Es la forma en que las señales actúan sobre el medio de la red, o la forma en que los datos pasan por la red de un dispositivo a otro sin tener en cuenta la interconexión física de los dispositivos. La topología lógica de una red no es necesariamente la misma que su topología física. Por ejemplo, la Ethernet de par trenzado original que utilizaba concentradores repetidos era una topología lógica de bus con una disposición física de topología de estrella. También Token Ring es una topología lógica de anillo, pero está cableada como topología física de estrella desde la unidad de acceso al medio.
+            p Es la forma en que las señales actúan sobre el medio de la red, o la forma en que los datos pasan por la red de un dispositivo a otro sin tener en cuenta la interconexión física de los dispositivos. La topología lógica de una red no es necesariamente la misma que su topología física. Por ejemplo, la Ethernet de par trenzado original que utilizaba concentradores repetidos era una topología lógica de bus con una disposición física de topología de estrella. También <i>Token Ring</i> es una topología lógica de anillo, pero está cableada como topología física de estrella desde la unidad de acceso al medio.
 
     .row.justify-content-center.align-items-center.mb-5
       p.mb-5(data-aos="fade-left") La clasificación lógica de las topologías de red suele seguir las mismas clasificaciones que las físicas de las topologías de red, pero describe el camino que siguen los datos entre los nodos que se utilizan, en contraposición a las conexiones físicas reales entre los nodos. Las topologías lógicas suelen estar determinadas por los protocolos de red, en lugar de estarlo por la disposición física de los cables, hilos y dispositivos de red o por el flujo de las señales eléctricas u ópticas, aunque en muchos casos los caminos que las señales toman entre los nodos pueden coincidir estrechamente con el flujo lógico de los datos, de ahí la convención de utilizar los términos topología lógica y topología de señales indistintamente.
@@ -152,7 +152,7 @@
           span Diferentes tecnologías inalámbricas
       .col-lg-10
         figure
-          img(src='@/assets/curso/temas/tema4/img12.svg', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema4/img12.svg', alt='Figura que muestra las velocidades de datos soportadas en función del alcance de las comunicaciones para las diferentes tecnologías de comunicaciones móviles e inalámbricas.')
 
     .row.bg-titulo3.align-items-center.p-2.mb-5(data-aos="fade-left")
       h3.mb-3.mt-2 Sistemas de comunicaciones celulares
@@ -205,7 +205,7 @@
           span Interfaz WireShark
       .col-lg-10
         figure
-          img(src='@/assets/curso/temas/tema4/img18.svg', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema4/img18.svg', alt='Figura que muestra la interfaz de wireshark, en donde se realiza la medición sobre WIFI: en0')
 
     .row.justify-content-center.align-items-center.mb-5
       h4.text-center Medición sobre WIFI
@@ -234,7 +234,7 @@
           span Prueba sobre Wifi TCP
       .col-lg-10
         figure
-          img(src='@/assets/curso/temas/tema4/img20.svg', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema4/img20.svg', alt='Figura que representa una prueba sobre Wifi TCP, donde se muestra los resultados de la captura de paquetes en una red inalámbrica.')
 
 
 

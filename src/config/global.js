@@ -37,12 +37,12 @@ export default {
         subMenu: [
           {
             numero: '1.1',
-            titulo: '¿Qué son los recursos de una red?',
+            titulo: 'Recursos de una red',
             hash: 't_1_1',
           },
           {
             numero: '1.2',
-            titulo: '¿Cómo se hace el dimensionamiento de recursos?',
+            titulo: 'Dimensionamiento de recursos',
             hash: 't_1_2',
           },
         ],
@@ -194,7 +194,7 @@ export default {
     {
       termino: 'ENIAC',
       significado:
-        'Electronic Numerical Integrator and Computer: primer computador programable a gran escala.',
+        ' Electronic Numerical Integrator and Computer: primer computador programable a gran escala.',
     },
     {
       termino: 'RAM',
@@ -203,17 +203,17 @@ export default {
     {
       termino: 'VGA',
       significado:
-        'video graphics Array, puerto de conexión de las pantallas de un computador.',
+        ' Video Graphics Array, puerto de conexión de las pantallas de un computador.',
     },
     {
       termino: 'DVI',
       significado:
-        'digital video interface, puerto de conexión de las pantallas de un computador.',
+        ' Digital video interface, puerto de conexión de las pantallas de un computador.',
     },
     {
       termino: 'HDMI',
       significado:
-        'high-definition multimedia interface, puerto de conexión de las pantallas de un computador.',
+        ' Hhigh-Definition Multimedia Interface, puerto de conexión de las pantallas de un computador.',
     },
     {
       termino: 'USB',
@@ -243,7 +243,7 @@ export default {
     },
     {
       termino: 'GNU',
-      significado: 'general public license: licencia pública general de GNU.',
+      significado: ' General Public License: licencia pública general de GNU.',
     },
     {
       termino: 'SO',
@@ -251,7 +251,7 @@ export default {
     },
     {
       termino: 'ITIL',
-      significado: 'information technology infrastructure library.',
+      significado: ' Information Technology Infrastructure Library.',
     },
     {
       termino: 'ITSM',
@@ -289,15 +289,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del Ecosistema',
+          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
+          cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
         {
           nombre: 'Liliana Victoria Morales Gualdrón',
-          cargo: 'Responsable de Línea de Producción',
+          cargo: 'Responsable de línea de producción',
           centro:
-            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
       ],
     },
@@ -308,19 +308,19 @@ export default {
           nombre: 'Joaquín Fernando Sánchez',
           cargo: 'Experto temático',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Regional Norte de Santander - Centro de la industria, la empresa y los servicios',
         },
         {
           nombre: 'Gloria Lida Alzate Suarez',
           cargo: 'Diseñador instruccional',
           centro:
-            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Alix Cecilia Chinchilla Rueda',
           cargo: 'Asesoría metodológica y pedagógica',
           centro:
-            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
@@ -337,25 +337,25 @@ export default {
           nombre: 'Eulises Orduz Amézquita',
           cargo: 'Diseñador web',
           centro:
-            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Manuel Felipe Echavarría Orozco',
           cargo: 'Desarrollador Fullstack',
           centro:
-            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Lady Adriana Ariza Luque',
           cargo: 'Animador y Producción audiovisual',
           centro:
-            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Ernesto Navarro Jaimes',
           cargo: 'Animador y Producción audiovisual',
           centro:
-            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
       ],
     },
@@ -366,20 +366,20 @@ export default {
           nombre: 'Carolina Coca Salazar',
           cargo: 'Evaluación de contenidos inclusivos y accesibles',
           centro:
-            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Lina Marcela Pérez Manchego',
           cargo: 'Validación de recursos educativos digitales',
           centro:
-            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Leyson Fabian Castaño Pérez',
           cargo:
             'Validación de recursos educativos digitales y vinculación LMS',
           centro:
-            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
       ],
     },

@@ -23,7 +23,7 @@
           span Aplicaciones en la red datos
 
         figure
-          img(src='@/assets/curso/temas/tema1/img2.svg', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema1/img2.svg', alt='Figura que menciona las aplicaciones en la red de datos de internet, las cuales se mencionan debajo de esta imagen.')
 
     .row.justify-content-center.align-items-center.mb-5
       .col-2.col-lg-1
@@ -84,7 +84,7 @@
           span Concepto de protocolo
 
         figure
-          img(src='@/assets/curso/temas/tema1/img7.svg', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema1/img7.svg', alt='Figura que muestra un intercambio típico, en este caso del protocolo humano (buenos modales), indicando un saludo (Hola), si posee tiempo la otra persona, solicitudes de conexión y su respectiva respuesta.')
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
@@ -144,7 +144,7 @@
           span Interacción entre sistemas finales
 
         figure
-          img(src='@/assets/curso/temas/tema1/img12.svg', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema1/img12.svg', alt='Figura que ejemplifica la interacción entre sistemas finales, lo cual es lo sucedido cuando se hace una petición a un servidor web.')
 
       .col-lg-7
         p(data-aos="fade-left") Como ejemplo de un protocolo de red informática con el que probablemente esté familiarizado, considere lo que ocurre cuando hace una petición a un servidor web, es decir, cuando escribe la URL de una página web en su navegador web. El escenario se ilustra en la mitad derecha de la Figura 3. En primer lugar, su computador enviará un mensaje de solicitud de conexión al servidor web y esperará una respuesta.
@@ -194,7 +194,7 @@
           span Sistemas finales de la red
 
         figure
-          img(src='@/assets/curso/temas/tema1/img15.png', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema1/img15.png', alt='Figura que representa los sistemas finales de la red, los cuales están compuestos por:<br>Host-Sistema Final:<br> Se divide en dos categorías: clientes y servidores.<br> Para ejecutar programas de aplicaciones de navegación web, servidor web y servidor de correo.')
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
@@ -240,7 +240,7 @@
 
       .col-lg-9
         figure
-          img(src='@/assets/curso/temas/tema1/img19.svg', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema1/img19.svg', alt='Figura que representa una red de acceso, la cual está a nivel nacional, internacional, local o regional, con una red doméstica o empresarial.')
 
     separador
     #t_1_2.titulo-segundo.color-acento-botones(data-aos='fade-up-right')
@@ -261,9 +261,9 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
         .cajon.cajon-amarillo.p-4.mb-3(data-aos="flip-up")
-          p.mb-0 En los años 90, casi todos los usuarios residenciales accedían a Internet a través de líneas telefónicas analógicas ordinarias utilizando un módem de acceso telefónico. Hoy en día, muchos usuarios de países subdesarrollados y de zonas rurales de países desarrollados (donde no se dispone de acceso de banda ancha) siguen accediendo a Internet por vía telefónica. De hecho, se calcula que el 10% de los usuarios residenciales de Estados Unidos utilizaban la conexión telefónica en 2008.
+          p.mb-0 En los años 90, casi todos los usuarios residenciales accedían a Internet a través de líneas telefónicas analógicas ordinarias utilizando un módem de acceso telefónico. Hoy en día, muchos usuarios de países subdesarrollados y de zonas rurales de países desarrollados (donde no se dispone de acceso de banda ancha) siguen accediendo a Internet por vía telefónica. De hecho, se calcula que el 10 % de los usuarios residenciales de Estados Unidos utilizaban la conexión telefónica en 2008.
 
-        p(data-aos="fade-right") El término <B>"dial-up"</B> se emplea porque el <i>software</i> del usuario realmente marca el número de teléfono de un ISP y realiza una conexión telefónica tradicional con el ISP (por ejemplo, con AOL). Como se muestra en la Figura 6, el <b style= 'color:#5573C6;'>PC está conectado a un módem de marcación</b>, que a su vez está conectado a la <b style= 'color:#5573C6;'>línea telefónica analógica de la casa</b>. Esta línea telefónica analógica está formada por un cable de cobre de par trenzado y es la misma línea telefónica que se utiliza para hacer llamadas normales. El módem doméstico convierte la salida digital del PC en un formato analógico adecuado para su transmisión por la línea telefónica analógica. En el otro extremo de la conexión, un módem en el ISP convierte la señal analógica de nuevo en formato digital para su entrada en el <i>router</i> del ISP.
+        p(data-aos="fade-right") El término <B>"<i>dial-up</i>"</B> se emplea porque el <i>software</i> del usuario realmente marca el número de teléfono de un ISP y realiza una conexión telefónica tradicional con el ISP (por ejemplo, con AOL). Como se muestra en la Figura 6, el <b style= 'color:#5573C6;'>PC está conectado a un módem de marcación</b>, que a su vez está conectado a la <b style= 'color:#5573C6;'>línea telefónica analógica de la casa</b>. Esta línea telefónica analógica está formada por un cable de cobre de par trenzado y es la misma línea telefónica que se utiliza para hacer llamadas normales. El módem doméstico convierte la salida digital del PC en un formato analógico adecuado para su transmisión por la línea telefónica analógica. En el otro extremo de la conexión, un módem en el ISP convierte la señal analógica de nuevo en formato digital para su entrada en el <i>router</i> del ISP.
 
       .col-10.col-lg-4
         figure
@@ -296,7 +296,7 @@
           span Acceso por cable telefónico.
 
         figure
-          img(src='@/assets/curso/temas/tema1/img24.svg', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema1/img24.svg', alt='Figura que representa el acceso por cable telefónico, donde se puede apreciar que el PC está conectado a un módem de marcación, que a su vez está conectado a la línea telefónica analógica de la casa.')
 
     .row.bg-titulo1.align-items-center.p-2.mb-5(data-aos="fade-left")
       h3.mb-3.mt-2 DSL
@@ -307,7 +307,7 @@
           img(src='@/assets/curso/temas/tema1/img3.svg', alt='Imágen decorativa').img3-tm1
       
       .col-10.col-lg-11
-        p(data-aos="fade-left") Hoy en día, existen dos tipos de acceso residencial de banda ancha más extendidos, la línea de suscribirse digital (<b style= 'color:#5573C6;'>DSL</b>) y el <b style= 'color:#5573C6;'>cable</b>. En la mayoría de los países desarrollados, más del 50% de los hogares tienen acceso a la banda ancha, con Corea del Sur, Islandia, Países Bajos, Dinamarca y Suiza a la cabeza con más del 74% de penetración en los hogares en 2008. En Estados Unidos, la DSL y el cable tienen aproximadamente la misma cuota de mercado de acceso a la banda ancha. Fuera de Estados Unidos y Canadá, la DSL domina, especialmente en Europa, donde más del 90% de las conexiones de banda ancha son DSL en muchos países.
+        p(data-aos="fade-left") Hoy en día, existen dos tipos de acceso residencial de banda ancha más extendidos, la línea de suscribirse digital (<b style= 'color:#5573C6;'>DSL</b>) y el <b style= 'color:#5573C6;'>cable</b>. En la mayoría de los países desarrollados, más del 50 % de los hogares tienen acceso a la banda ancha, con Corea del Sur, Islandia, Países Bajos, Dinamarca y Suiza a la cabeza con más del 74 % de penetración en los hogares en 2008. En Estados Unidos, la DSL y el cable tienen aproximadamente la misma cuota de mercado de acceso a la banda ancha. Fuera de Estados Unidos y Canadá, la DSL domina, especialmente en Europa, donde más del 90 % de las conexiones de banda ancha son DSL en muchos países.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-lg-5
@@ -360,7 +360,7 @@
           span Conexión de DSL
 
         figure
-          img(src='@/assets/curso/temas/tema1/img29.svg', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema1/img29.svg', alt='Figura que representa la conexión de DSL, donde se aprecia que el módem DSL de cada cliente utiliza la línea telefónica existente para intercambiar datos con un multiplexor de acceso a la línea de abonado digital.')
 
     .row.justify-content-center.align-items-center.mb-5
       .bloque-texto-g.color-adicional-1.p-3.p-sm-4.p-md-5
@@ -405,7 +405,7 @@
         .cajon.cajon-amarillo.p-4.mb-3(data-aos="flip-up")
           p.mb-0 Muchas residencias en Norteamérica y en otros lugares reciben cientos de canales de televisión por redes de cable coaxial. (Más adelante hablaremos del cable coaxial). En un sistema tradicional de televisión por cable, una cabecera emite canales de televisión a través de una red de distribución de cable coaxial y amplificadores a las residencias.
 
-        p(data-aos="fade-left") Mientras que el <b>DSL y el dial-up</b> utilizan la infraestructura de telefonía local de la empresa de telecomunicaciones, el acceso a Internet por cable utiliza la infraestructura de televisión por cable de la compañía. Una residencia obtiene el acceso a Internet por cable de la misma compañía que le proporciona la televisión por cable. Como se ilustra en la figura 8, <b style= 'color:#5573C6;'>la fibra óptica conecta la cabecera del cable con los empalmes del barrio</b>, desde los que se utiliza el cable coaxial tradicional para llegar a las casas y apartamentos individuales. Cada unión de barrio suele dar soporte a entre 500 y 5.000 hogares. Dado que en este sistema se emplean tanto la fibra como el cable coaxial, suele denominarse fibra híbrida coaxial (HFC). 
+        p(data-aos="fade-left") Mientras que el <b>DSL y el <i>dial-up</i></b> utilizan la infraestructura de telefonía local de la empresa de telecomunicaciones, el acceso a Internet por cable utiliza la infraestructura de televisión por cable de la compañía. Una residencia obtiene el acceso a Internet por cable de la misma compañía que le proporciona la televisión por cable. Como se ilustra en la figura 8, <b style= 'color:#5573C6;'>la fibra óptica conecta la cabecera del cable con los empalmes del barrio</b>, desde los que se utiliza el cable coaxial tradicional para llegar a las casas y apartamentos individuales. Cada unión de barrio suele dar soporte a entre 500 y 5.000 hogares. Dado que en este sistema se emplean tanto la fibra como el cable coaxial, suele denominarse fibra híbrida coaxial (HFC). 
 
     p.mb-5(data-aos="fade-right") El acceso a Internet por cable requiere módems especiales, llamados <b style= 'color:#5573C6;'>cable-módem</b>. Al igual que el módem DSL, el módem por cable suele ser un <b>dispositivo externo y se conecta al PC doméstico</b> a través de un puerto Ethernet. Los cable módems dividen la red <b>HFC en dos canales</b>, <b style= 'color:#5573C6;'>uno de bajada y otro de subida</b>. Al igual que con la DSL, el acceso suele ser asimétrico, ya que el canal de bajada suele tener asignada una velocidad de transmisión superior a la del canal de subida. Una característica importante del acceso a Internet por cable es que se trata de un medio de difusión compartido. En concreto, <b>cada paquete enviado por la cabecera viaja en sentido descendente por todos los enlaces hasta cada hogar</b>; y cada paquete enviado por un hogar viaja por el canal ascendente hasta la cabecera. Por esta razón, si varios usuarios están descargando simultáneamente un archivo de vídeo en el canal de bajada, la velocidad real a la que cada usuario recibe su archivo de vídeo será significativamente menor que la velocidad de bajada agregada del cable. Por otro lado, si sólo hay unos pocos usuarios activos y todos navegan por la web, entonces cada uno de los usuarios puede recibir realmente las páginas web a la velocidad total de bajada del cable, porque los usuarios raramente solicitarán una página web exactamente al mismo tiempo. Como el canal de subida también se comparte, se necesita <b style= 'color:#5573C6;'>un protocolo de acceso múltiple distribuido</b> para coordinar las transmisiones y evitar colisiones.
 
@@ -417,7 +417,7 @@
       
       .col-lg-10
         figure
-          img(src='@/assets/curso/temas/tema1/img33.svg', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema1/img33.svg', alt='Diagrama<br>Descripción generada automáticamente')
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
@@ -461,7 +461,7 @@
           span Conexión de FTTH.
       
         figure
-          img(src='@/assets/curso/temas/tema1/img36.svg', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema1/img36.svg', alt='Figura que representa la conexión de FTTH, la cual contiene fibra óptica y divisores ópticos, una oficina central y por supuesto conexión a internet, entre otros aspectos.')
 
     .row.justify-content-center.align-items-center.mb-5
       .col-2.col-lg-1
