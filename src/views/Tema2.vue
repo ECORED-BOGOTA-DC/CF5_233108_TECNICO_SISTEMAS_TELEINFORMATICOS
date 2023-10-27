@@ -109,7 +109,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
-        p(data-aos="fade-right") El hecho de que un conjunto de <i>hosts</i> esté conectado directa o indirectamente entre sí no significa que lograr una conectividad de <i>host</i> a <i>host</i>. El último requisito es que cada nodo debe ser capaz de decir <b>con cuál de los otros nodos de la red quiere comunicarse.</b> Esto se hace asignando una dirección a cada nodo. Una <b style= 'color:#5573C6;'>dirección es una cadena de bytes que identifica a un nodo</b>; es decir, la red puede utilizar la dirección de un nodo para distinguirlo de los demás nodos conectados a la red. Cuando un nodo de origen quiere que la red entregue un mensaje a un determinado nodo de destino, especifica la dirección del nodo de destino. Si los nodos emisores y receptores no están conectados directamente, los conmutadores y enrutadores de la red utilizan esta dirección para decidir cómo reenviar el mensaje hacia el destino. El proceso de determinar sistemáticamente cómo reenviar los mensajes hacia el nodo de destino basándose en su dirección se denomina <b style= 'color:#5573C6;'>enrutamiento</b>. Ver figura 11.
+        p(data-aos="fade-right") El hecho de que un conjunto de <i>hosts</i> esté conectado directa o indirectamente entre sí no significa que lograr una conectividad de <i>host</i> a <i>host</i>. El último requisito es que cada nodo debe ser capaz de decir <b>con cuál de los otros nodos de la red quiere comunicarse.</b> Esto se hace asignando una dirección a cada nodo. Una <b style= 'color:#5573C6;'>dirección es una cadena de bytes que identifica a un nodo</b>; es decir, la red puede utilizar la dirección de un nodo para distinguirlo de los demás nodos conectados a la red. Cuando un nodo de origen quiere que la red entregue un mensaje a un determinado nodo de destino, especifica la dirección del nodo de destino. Si los nodos emisores y receptores no están conectados directamente, los conmutadores y enrutadores de la red utilizan esta dirección para decidir cómo reenviar el mensaje hacia el destino. El proceso de determinar sistemáticamente cómo reenviar los mensajes hacia el nodo de destino basándose en su dirección se denomina <b style= 'color:#5573C6;'>enrutamiento</b>. Ver Figura 11.
 
       .col-10.col-lg-5
         figure
@@ -154,7 +154,7 @@
 
       .col-lg-10(data-aos="fade-left")
         .tarjeta-azul2.p-4
-          p.mb-0.text-white A continuación, se muestran algunas analogías con las redes informáticas: la aerolínea te transporta desde el origen hasta el destino; un paquete se transporta desde el <i>host</i> de origen hasta el <i>host</i> de destino en Internet. Pero esta no es la analogía que buscamos. Buscamos alguna estructura en capas. Si observamos la figura 12, vemos que hay una función de emisión de billetes en cada extremo; también hay una función de equipaje para los pasajeros que ya tienen billete y una función de puerta de embarque para los pasajeros que ya tienen billete y equipaje. Para los pasajeros que han pasado por la puerta (es decir, los que ya tienen billete, han facturado el equipaje y han pasado por la puerta), hay una función de despegue y aterrizaje, y mientras están en vuelo, hay una función de encaminamiento del avión.
+          p.mb-0.text-white A continuación, se muestran algunas analogías con las redes informáticas: la aerolínea te transporta desde el origen hasta el destino; un paquete se transporta desde el <i>host</i> de origen hasta el <i>host</i> de destino en Internet. Pero esta no es la analogía que buscamos. Buscamos alguna estructura en capas. Si observamos la Figura 12, vemos que hay una función de emisión de billetes en cada extremo; también hay una función de equipaje para los pasajeros que ya tienen billete y una función de puerta de embarque para los pasajeros que ya tienen billete y equipaje. Para los pasajeros que han pasado por la puerta (es decir, los que ya tienen billete, han facturado el equipaje y han pasado por la puerta), hay una función de despegue y aterrizaje, y mientras están en vuelo, hay una función de encaminamiento del avión.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-left")
       .col-lg-10
@@ -166,7 +166,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        p(data-aos="fade-up") En la figura 12, se ha dividido la funcionalidad de las aerolíneas en capas, lo que proporciona un marco en el que podemos hablar de los viajes en avión. Cada capa, combinada con las capas inferiores, implementa alguna funcionalidad, algún servicio. A continuación, se puede observar la función que cumple algunas de ellas:
+        p(data-aos="fade-up") En la Figura 12, se ha dividido la funcionalidad de las aerolíneas en capas, lo que proporciona un marco en el que podemos hablar de los viajes en avión. Cada capa, combinada con las capas inferiores, implementa alguna funcionalidad, algún servicio. A continuación, se puede observar la función que cumple algunas de ellas:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.mb-3
@@ -234,7 +234,7 @@
 
       .col-lg-5
         .tarjeta-gris1.p-3.px-5(data-aos="fade-left")
-          p.mt-lg-4 Pero basta de hablar de las compañías aéreas. Centrémonos ahora en los protocolos de red. Para estructurar el diseño de los protocolos de red, los diseñadores de redes organizan los protocolos -y el <i>hardware</i> y el <i>software</i> de red que los implementan- en capas. Cada protocolo pertenece a una de las capas, al igual que cada función de la arquitectura de la aerolínea de la figura 12 pertenecía a una capa. También nos interesan los servicios que una capa ofrece a la capa superior, el llamado modelo de servicio de una capa. Al igual que en nuestro ejemplo de la aerolínea, cada capa proporciona su servicio:
+          p.mt-lg-4 Pero basta de hablar de las compañías aéreas. Centrémonos ahora en los protocolos de red. Para estructurar el diseño de los protocolos de red, los diseñadores de redes organizan los protocolos -y el <i>hardware</i> y el <i>software</i> de red que los implementan- en capas. Cada protocolo pertenece a una de las capas, al igual que cada función de la arquitectura de la aerolínea de la Figura 12 pertenecía a una capa. También nos interesan los servicios que una capa ofrece a la capa superior, el llamado modelo de servicio de una capa. Al igual que en nuestro ejemplo de la aerolínea, cada capa proporciona su servicio:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4
@@ -404,7 +404,7 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-down")
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/nI4Zb8UjXsM" title="CConfiguración de una red de dos computadores" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/nI4Zb8UjXsM" title="Configuración de una red de dos computadores" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     h5.text-center.mb-5 Revise imágenes de la configuración a continuación:
 
@@ -488,7 +488,7 @@
         figure
           img(src='@/assets/curso/temas/tema2/img31.svg', alt='Imágen decorativa')
 
-    p.mb-5(data-aos="fade-left") El acceso a la LAN inalámbrica basado en la tecnología <b>IEEE 802.11</b>, es decir, el <b>Wifi</b>, está ya prácticamente en todas partes: universidades, oficinas comerciales, cafeterías, aeropuertos, hogares e incluso en los aviones. La mayoría de las universidades han instalado estaciones base <b style= 'color:#5573C6;'>IEEE 802.11</b> en todo el campus, lo que permite a los estudiantes enviar y recibir correo electrónico o navegar por Internet desde cualquier lugar del campus. En muchas ciudades, uno puede situarse en la esquina de una calle y estar al alcance de diez o veinte estaciones base. <b style= 'color:#5573C6;'>Muchos hogares combinan el acceso residencial de banda ancha</b> (es decir, módems de cable o DSL) con la económica tecnología LAN inalámbrica para crear potentes redes domésticas. La figura 17 muestra un esquema de una red doméstica típica. Esta red doméstica se compone de un ordenador portátil itinerante y un PC con cable; una estación base (el punto de acceso sin cables), que se comunica con el PC inalámbrico; un módem por cable, que proporciona acceso de banda ancha a Internet; y un <b style= 'color:#5573C6;'><i>router</i></b>, que interconecta la estación base y el <b>PC fijo con el módem por cable</b>. Esta red permite a los miembros del hogar tener acceso de banda ancha a Internet con un miembro que se desplaza de la cocina al patio trasero y a los dormitorios.
+    p.mb-5(data-aos="fade-left") El acceso a la LAN inalámbrica basado en la tecnología <b>IEEE 802.11</b>, es decir, el <b>Wifi</b>, está ya prácticamente en todas partes: universidades, oficinas comerciales, cafeterías, aeropuertos, hogares e incluso en los aviones. La mayoría de las universidades han instalado estaciones base <b style= 'color:#5573C6;'>IEEE 802.11</b> en todo el campus, lo que permite a los estudiantes enviar y recibir correo electrónico o navegar por Internet desde cualquier lugar del campus. En muchas ciudades, uno puede situarse en la esquina de una calle y estar al alcance de diez o veinte estaciones base. <b style= 'color:#5573C6;'>Muchos hogares combinan el acceso residencial de banda ancha</b> (es decir, módems de cable o DSL) con la económica tecnología LAN inalámbrica para crear potentes redes domésticas. La Figura 17 muestra un esquema de una red doméstica típica. Esta red doméstica se compone de un ordenador portátil itinerante y un PC con cable; una estación base (el punto de acceso sin cables), que se comunica con el PC inalámbrico; un módem por cable, que proporciona acceso de banda ancha a Internet; y un <b style= 'color:#5573C6;'><i>router</i></b>, que interconecta la estación base y el <b>PC fijo con el módem por cable</b>. Esta red permite a los miembros del hogar tener acceso de banda ancha a Internet con un miembro que se desplaza de la cocina al patio trasero y a los dormitorios.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6(data-aos="flip-left")

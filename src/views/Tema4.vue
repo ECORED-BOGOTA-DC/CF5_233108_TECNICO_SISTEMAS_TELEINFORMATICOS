@@ -143,7 +143,7 @@
       .col-lg-8
         p(data-aos="fade-left") Hay muchos tipos de <b style= 'color:#5573C6;'>tecnologías inalámbricas integradas</b> en los dispositivos móviles que podrían utilizarse para construir la nube móvil. La atención se centra en las tecnologías de comunicaciones celulares y de corto alcance. Las tecnologías de comunicaciones móviles e inalámbricas han evolucionado siguiendo diferentes vías de desarrollo, a veces denominadas la vía móvil o celular y la vía inalámbrica, respectivamente. En primer lugar, hablaremos de la trayectoria de la evolución celular, presentando las principales tecnologías representativas de las generaciones de comunicaciones móviles. A continuación, se presentan las tecnologías de redes de área local inalámbricas (WLAN) o Wifi, es decir, diferentes versiones de IEEE802.11 y <i>Bluetooth</i>. 
 
-        p(data-aos="fade-left") La figura 23, muestra las velocidades de datos soportadas en función del alcance de las comunicaciones para las diferentes tecnologías de comunicaciones móviles e inalámbricas. Se muestran tecnologías 2G como GSM CSD, GPRS, tecnologías 3G como UMTS/HSDPA y tecnologías 4G como WiMAX, LTE, HSPA+ y LTE advanced (LTE-A). Ambas tecnologías, la celular y la de comunicación de corto alcance, pueden utilizarse para construir una nube móvil. Estas <b style= 'color:#5573C6;'>tecnologías trabajan en bandas de frecuencias diferentes</b> y pueden considerarse ortogonales en su uso de frecuencias. Al final de este componente también se examinan las tecnologías futuras en las que la conexión con la superposición y la conexión con los pares cooperativos se encuentran en la misma banda. LTE advanced (LTE- A) es un sistema celular que soporta la comunicación de dispositivo a dispositivo proporcionando los recursos necesarios para la comunicación.
+        p(data-aos="fade-left") La Figura 23, muestra las velocidades de datos soportadas en función del alcance de las comunicaciones para las diferentes tecnologías de comunicaciones móviles e inalámbricas. Se muestran tecnologías 2G como GSM CSD, GPRS, tecnologías 3G como UMTS/HSDPA y tecnologías 4G como WiMAX, LTE, HSPA+ y LTE advanced (LTE-A). Ambas tecnologías, la celular y la de comunicación de corto alcance, pueden utilizarse para construir una nube móvil. Estas <b style= 'color:#5573C6;'>tecnologías trabajan en bandas de frecuencias diferentes</b> y pueden considerarse ortogonales en su uso de frecuencias. Al final de este componente también se examinan las tecnologías futuras en las que la conexión con la superposición y la conexión con los pares cooperativos se encuentran en la misma banda. LTE advanced (LTE- A) es un sistema celular que soporta la comunicación de dispositivo a dispositivo proporcionando los recursos necesarios para la comunicación.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-left")
       .col-lg-8
@@ -196,7 +196,7 @@
     #t_4_3.titulo-segundo.color-acento-botones(data-aos='fade-up-right')
        h2 4.3 Pruebas sobre redes inalámbricas
        
-    p.mb-5(data-aos="fade-right") Para realizar las pruebas sobre redes inalámbricas se utiliza <b style= 'color:#5573C6;'><i>wireShark</i></b>, que es una aplicación para hacer el monitoreo de paquetes. La prueba consiste en realizar la captura de paquetes TCP cuando se está conectado a internet. La clave es revisar la interfaz de <b>wifi</b>. En la figura 24 se muestra la interfaz de <i>wireShark</i>, en donde se realiza la medición sobre WIFI: en0.
+    p.mb-5(data-aos="fade-right") Para realizar las pruebas sobre redes inalámbricas se utiliza <b style= 'color:#5573C6;'><i>wireShark</i></b>, que es una aplicación para hacer el monitoreo de paquetes. La prueba consiste en realizar la captura de paquetes TCP cuando se está conectado a internet. La clave es revisar la interfaz de <b>wifi</b>. En la Figura 24 se muestra la interfaz de <i>wireShark</i>, en donde se realiza la medición sobre WIFI: en0.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-left")
       .col-lg-8
@@ -223,7 +223,7 @@
       .col-lg-8(data-aos="fade-left")
         .tarjeta-azul2.p-4
           p.mb-0 
-            span.text-white En la figura 25 se muestra los resultados de la captura de paquetes en una red inalámbrica. El comportamiento es una gráfica que varía, ya que navegar por internet es un proceso aleatorio. En esta prueba se comprueba que la interfaz de Wifi está activa, está recibiendo y transmitiendo paquetes. Las pruebas realizadas con el comando 
+            span.text-white En la Figura 25 se muestra los resultados de la captura de paquetes en una red inalámbrica. El comportamiento es una gráfica que varía, ya que navegar por internet es un proceso aleatorio. En esta prueba se comprueba que la interfaz de Wifi está activa, está recibiendo y transmitiendo paquetes. Las pruebas realizadas con el comando 
             | <b style= 'color:#4ADBD1;'>ping </b>
             span.text-white que se efectuaron anteriormente también se pueden realizar sobre la conexión de la red inalámbrica.
 

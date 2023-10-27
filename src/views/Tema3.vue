@@ -164,7 +164,7 @@
           p Un ping (<i>Packet Internet o Inter-Network Groper</i>) es un programa básico de Internet que permite a un usuario probar y verificar si una determinada dirección IP de destino existe y puede aceptar peticiones en la administración de redes informáticas. El acrónimo fue inventado para coincidir con el término de los submarinistas para el sonido de un pulso de sonar devuelto. El ping también se utiliza para diagnosticar que un ordenador anfitrión al que el usuario está tratando de llegar está funcionando. Cualquier sistema operativo (OS) con capacidad de red, incluyendo la mayoría del <i>software</i> de administración de red integrado, puede usar ping. Por ejemplo, para encontrar la dirección de punto, como 205.245.172.72, para cualquier nombre de dominio dado, los usuarios de Windows pueden ir a la pantalla del símbolo del sistema (start/run/cmd) e introducir ping xxxxx.yyy, donde xxxxx es el nombre de dominio de segundo nivel, como "whatis", e yyy es el nombre de dominio de primer nivel, como "com".
 
     .row.justify-content-center.align-items-center.mb-5
-      h5.text-center.mb-0 En la figura 19 de muestra el resultado de la prueba ping entre un computador y un servidor de internet.
+      h5.text-center.mb-0 En la Figura 19 de muestra el resultado de la prueba ping entre un computador y un servidor de internet.
       h5.text-center En este caso, el servidor tiene la dirección IP 8.8.8.8 que es un servidor DNS de Google.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-left")
@@ -177,9 +177,9 @@
           img(src='@/assets/curso/temas/tema3/img10.svg', alt='Figura que muestra el resultado de la prueba ping entre un computador y un servidor de internet.')
 
     .row.justify-content-center.align-items-center.mb-5
-      p(data-aos="fade-right") Considerando las características de la prueba, los parámetros a considerar son el tiempo de respuesta y la cantidad de paquetes perdidos. En la parte inferior se muestra la estadística de esta prueba. Para los resultados de la figura 19 se enviaron 7 paquetes, se recibieron 7 paquetes y el promedio del tiempo de respuesta fue 16.396 milisegundos.
+      p(data-aos="fade-right") Considerando las características de la prueba, los parámetros a considerar son el tiempo de respuesta y la cantidad de paquetes perdidos. En la parte inferior se muestra la estadística de esta prueba. Para los resultados de la Figura 19 se enviaron 7 paquetes, se recibieron 7 paquetes y el promedio del tiempo de respuesta fue 16.396 milisegundos.
 
-      p(data-aos="fade-left") Si la conexión no fuera satisfactoria, se vería algo similar a la figura 20. En donde se desconecta el wifi del computador y se hizo el ping al servidor 8.8.8.8.
+      p(data-aos="fade-left") Si la conexión no fuera satisfactoria, se vería algo similar a la Figura 20. En donde se desconecta el wifi del computador y se hizo el ping al servidor 8.8.8.8.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-left")
       .col-lg-8
@@ -205,7 +205,7 @@
     .row.justify-content-center.align-items-center.mb-5
       h5.text-center.mb-0 A continuación, se muestra una gráfica del comportamiento de un enlace inalámbrico.
 
-      h5.text-cente Se conecta un computador a través de wifi y se grafican los tiempos de respuesta. Esto se puede ver en la figura 21.
+      h5.text-cente Se conecta un computador a través de wifi y se grafican los tiempos de respuesta. Esto se puede ver en la Figura 21.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-left")
       .col-lg-8
@@ -234,7 +234,7 @@
             | <b style= 'color:#4ADBD1;'>la calidad del enlace</b>
             span.text-white , se puede usar una aplicación web, llamada <i>speed</i> test (Enlace: 
             | <a href="https://www.speedtest.net/es" target="_blank"><b style= 'color:#4ADBD1;'>https://www.speedtest.net/es)</b> </a> 
-            span.text-white Esta herramienta mide los tiempos de respuesta y la calidad del ancho de banda. En la figura 22 se muestra el resultado de una medición de rutina.
+            span.text-white Esta herramienta mide los tiempos de respuesta y la calidad del ancho de banda. En la Figura 22 se muestra el resultado de una medición de rutina.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-left")
       .col-lg-8
@@ -246,7 +246,7 @@
           img(src='@/assets/curso/temas/tema3/img15.svg', alt='Figura que muestra el resultado de una medición de rutina.')
 
     .row.justify-content-center.align-items-center.mb-5
-      p(data-aos="fade-right") En la figura 22, los datos obtenidos por las pruebas muestran, la velocidad de descarga del enlace, la velocidad de subida del enlace y un promedio de los tiempos de respuesta. Para la toma que muestra la figura 22, se infieren que el canal de Internet tiene buenas prestaciones tanto de subida (enviar correos electrónicos o subir archivos a la nube) como de bajada (ver videos o descargar archivos de la nube).
+      p(data-aos="fade-right") En la Figura 22, los datos obtenidos por las pruebas muestran, la velocidad de descarga del enlace, la velocidad de subida del enlace y un promedio de los tiempos de respuesta. Para la toma que muestra la Figura 22, se infieren que el canal de Internet tiene buenas prestaciones tanto de subida (enviar correos electrónicos o subir archivos a la nube) como de bajada (ver videos o descargar archivos de la nube).
 
       .cajon.cajon-amarillo.p-4.mb-3(data-aos="flip-up")
         p.mb-0 Las pruebas de velocidad miden la velocidad máxima de tu conexión actual -la rapidez con la que el dispositivo puede cargar y descargar información- accediendo a servidores de prueba cercanos. La prueba imita la actividad en línea en un entorno controlado, descargando archivos de muestra y registrando las velocidades. 
