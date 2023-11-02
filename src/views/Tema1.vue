@@ -417,7 +417,7 @@
       
       .col-lg-10
         figure
-          img(src='@/assets/curso/temas/tema1/img33.svg', alt='Diagrama<br>Descripción generada automáticamente')
+          img(src='@/assets/curso/temas/tema1/img33.svg', alt='Figura que representa las conexiones por cables, donde la fibra óptica conecta la cabecera del cable con los empalmes del barrio, desde los que se utiliza el cable coaxial tradicional para llegar a las casas y apartamentos individuales.')
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
