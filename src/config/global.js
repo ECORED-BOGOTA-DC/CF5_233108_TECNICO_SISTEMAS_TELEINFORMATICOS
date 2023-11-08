@@ -187,7 +187,7 @@ export default {
       referencia:
         'Ilyas, M. (2017). The handbook of ad hoc wireless networks. CRC Press.',
       tipo: 'Libro',
-      link: 'https://acortar.link/zYRbao',
+      link: 'https://doi.org/10.4324/9781420040401',
     },
   ],
   glosario: [

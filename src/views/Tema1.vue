@@ -194,7 +194,7 @@
           span Sistemas finales de la red
 
         figure
-          img(src='@/assets/curso/temas/tema1/img15.png', alt='Figura que representa los sistemas finales de la red, los cuales están compuestos por: Host-Sistema Final:  Se divide en dos categorías: clientes y servidores.  Para ejecutar programas de aplicaciones de navegación web, servidor web y servidor de correo.')
+          img(src='@/assets/curso/temas/tema1/img15.png', alt='Figura que representa los sistemas finales de la red, los cuales están compuestos por: Host-Sistema Final: Se divide en dos categorías: clientes y servidores. Para ejecutar programas de aplicaciones de navegación web, servidor web y servidor de correo.')
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
