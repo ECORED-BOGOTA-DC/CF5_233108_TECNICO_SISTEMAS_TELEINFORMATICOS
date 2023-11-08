@@ -23,7 +23,7 @@
           img(src='@/assets/curso/temas/tema1/img3.svg', alt='Imágen decorativa').img3-tm1
       
       .col-10.col-lg-11
-        p(data-aos="fade-left") Recordemos que un paquete comienza en un <i>host</i> (el origen), pasa por una serie de <i>routers</i>s y termina su viaje en otro <i>host</i> (el destino). Cuando un paquete viaja de un nodo (<i>host</i> o <i>router</i>) al siguiente nodo (<i>host</i> o <i>router</i>) a lo largo de este camino, el paquete sufre varios tipos de retrasos en cada nodo a lo largo del camino. Los más importantes son el retardo de procesamiento nodal, el <b>retardo de colas, el retardo de transmisión y el retardo de propagación</b>; juntos, estos retardos se acumulan para dar un retardo nodal total. Para comprender en profundidad la conmutación de paquetes y las redes informáticas, debemos entender la naturaleza e importancia de estos retrasos.
+        p(data-aos="fade-left") Recordemos que un paquete comienza en un <i>host</i> (el origen), pasa por una serie de <i>routers</i> y termina su viaje en otro <i>host</i> (el destino). Cuando un paquete viaja de un nodo (<i>host</i> o <i>router</i>) al siguiente nodo (<i>host</i> o <i>router</i>) a lo largo de este camino, el paquete sufre varios tipos de retrasos en cada nodo a lo largo del camino. Los más importantes son el retardo de procesamiento nodal, el <b>retardo de colas, el retardo de transmisión y el retardo de propagación</b>; juntos, estos retardos se acumulan para dar un retardo nodal total. Para comprender en profundidad la conmutación de paquetes y las redes informáticas, debemos entender la naturaleza e importancia de estos retrasos.
 
     .row.bg-titulo1.align-items-center.p-2.mb-5(data-aos="fade-left")
       h3.mb-3.mt-2 Tipos de retraso
@@ -88,13 +88,13 @@
         p(data-aos="fade-right") Se asume que una cola es capaz de contener un número infinito de paquetes. En realidad, la cola que precede a un enlace tiene una capacidad finita, aunque la capacidad de la cola depende en gran medida del diseño y el coste del <i>router</i>. Dado que la capacidad de la cola es finita, los retrasos de los paquetes no se aproximan realmente al infinito cuando la intensidad del tráfico se acerca a 1. En cambio, un paquete puede llegar y encontrar una cola llena. Al no haber lugar para almacenar dicho paquete, el <i>router</i> lo dejará caer; es decir, el paquete se perderá. Este desbordamiento en una cola puede verse de nuevo en el <b style= 'color:#5573C6;'>#[i applet]</b> de <b style= 'color:#5573C6;'>#[i Java]</b> para una cola cuando la intensidad del tráfico es mayor que 1.
 
         .cajon.color-acento-contenido.p-4(data-aos="flip-up")
-          p.mb-0 Desde el punto de vista del sistema final, una pérdida de paquetes se verá como un paquete que se ha transmitido al núcleo de la red pero que nunca sale de la red en el destino. La fracción de paquetes perdidos aumenta a medida que aumenta la intensidad del tráfico. Por lo tanto, el <b style= 'color:#5573C6;'>rendimiento en un nodo suele medirse</b> no sólo en términos de retardo, sino también en términos de <b style= 'color:#5573C6;'>probabilidad de pérdida de paquetes</b>.
+          p.mb-0 Desde el punto de vista del sistema final, una pérdida de paquetes se verá como un paquete que se ha transmitido al núcleo de la red, pero que nunca sale de la red en el destino. La fracción de paquetes perdidos aumenta a medida que aumenta la intensidad del tráfico. Por lo tanto, el <b style= 'color:#5573C6;'>rendimiento en un nodo suele medirse</b> no sólo en términos de retardo, sino también en términos de <b style= 'color:#5573C6;'>probabilidad de pérdida de paquetes</b>.
 
       .col-10.col-lg-6
         figure
           img(src='@/assets/curso/temas/tema3/gif-2.gif', alt='Imagen animada que muestra el proceso de la pérdida de paquetes.')
 
-    .row.bg-titulo3.align-items-center.p-2.mb-5(data-aos="fade-left")
+    .row.bg-titulo4.align-items-center.p-2.mb-5(data-aos="fade-left")
       h3.mb-3.mt-2 Rendimiento en las redes de computadores
 
     .row.justify-content-center.align-items-center.mb-5
@@ -346,7 +346,7 @@
         figure
           img(src='@/assets/curso/temas/tema3/img21.svg', alt='Imágen decorativa')
 
-    .row.bg-titulo3.align-items-center.p-2.mb-5(data-aos="fade-left")
+    .row.bg-titulo4.align-items-center.p-2.mb-5(data-aos="fade-left")
       h3.mb-3.mt-2 Redundancia de operadores de red
 
     .row.justify-content-center.align-items-center.mb-5
@@ -360,7 +360,7 @@
 
           p Además, cuando necesitas desplegar en un país en el que tu operador no tiene acuerdos de itinerancia (o las normas gubernamentales impiden la itinerancia permanente), tienes que conseguir un nuevo contrato con otro operador, <b style= 'color:#5573C6;'>instalar nuevas SIM</b>, utilizar potencialmente nuevos módems y componentes, y crear múltiples SKU para el mismo producto.
 
-    .row.bg-titulo3.align-items-center.p-2.mb-5(data-aos="fade-left")
+    .row.bg-titulo4.align-items-center.p-2.mb-5(data-aos="fade-left")
       h3.mb-3.mt-2 Modelos de redundancia de red
 
     p.mb-5(data-aos="fade-right") Hay más de una forma de construir una conexión fiable. Y eso significa que hay más de una forma de construir una redundancia de red. He aquí algunas formas en que las organizaciones y los proveedores de IaaS desarrollan sistemas de respaldo para crear rutas de red alternativas y mantener sus servicios en línea.

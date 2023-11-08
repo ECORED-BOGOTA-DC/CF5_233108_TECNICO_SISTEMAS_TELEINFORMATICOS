@@ -154,7 +154,7 @@
         figure
           img(src='@/assets/curso/temas/tema4/img12.svg', alt='Figura que muestra las velocidades de datos soportadas en función del alcance de las comunicaciones para las diferentes tecnologías de comunicaciones móviles e inalámbricas.')
 
-    .row.bg-titulo3.align-items-center.p-2.mb-5(data-aos="fade-left")
+    .row.bg-titulo4.align-items-center.p-2.mb-5(data-aos="fade-left")
       h3.mb-3.mt-2 Sistemas de comunicaciones celulares
 
     .row.justify-content-center.align-items-center.mb-5
@@ -163,7 +163,7 @@
           img(src='@/assets/curso/temas/tema4/img13.svg', alt='Imágen decorativa')
 
       .col-lg-8
-        p(data-aos="fade-left") La tecnología celular ha experimentado un largo y exitoso camino de evolución a lo largo de diferentes generaciones (de 1G a 4G), con el objetivo de proporcionar a los usuarios móviles un soporte de velocidad de datos cada vez mayor. Tras la primera generación (1G), de sistemas de comunicaciones móviles, que utilizaban esquemas de transmisión analógicos y no tenían intención de soportar conexiones de datos, la era digital comenzó con la segunda generación (2G). La tecnología dominante en la 2G era el GSM (Global System for Mobile Communications). Originalmente, GSM significaba Groupe Special Mobile, ya que era una iniciativa europea. GSM alcanzó una penetración mundial, mientras que las tecnologías competidoras, como IS-95, cdmaOne o cdma2000, se limitaron sólo a algunos países. GSM utilizaba un ancho de banda de 200kHz y la velocidad que soportaban las primeras conexiones de datos era de 9,6kbps.
+        p(data-aos="fade-left") La tecnología celular ha experimentado un largo y exitoso camino de evolución a lo largo de diferentes generaciones (de 1G a 4G), con el objetivo de proporcionar a los usuarios móviles un soporte de velocidad de datos cada vez mayor. Tras la primera generación (1G), de sistemas de comunicaciones móviles, que utilizaban esquemas de transmisión analógicos y no tenían intención de soportar conexiones de datos, la era digital comenzó con la segunda generación (2G). La tecnología dominante en la 2G era el GSM (Global System for Mobile Communications). Originalmente, GSM significaba Groupe Special Mobile, ya que era una iniciativa europea. GSM alcanzó una penetración mundial, mientras que las tecnologías competidoras, como IS-95, cdmaOne o cdma2000, se limitaron sólo a algunos países. GSM utilizaba un ancho de banda de 200 kHz y la velocidad que soportaban las primeras conexiones de datos era de 9,6 kbps.
 
     .row.bg-titulo2.align-items-center.p-2.mb-5(data-aos="fade-left")
       h3.mb-3.mt-2 Tecnologías de corto alcance
@@ -190,7 +190,7 @@
               img(src='@/assets/curso/temas/tema4/img17.svg', alt='Imágen decorativa')
 
           .col-md-7.mb-4.mb-md-0
-            p Es un conjunto de estándares para redes inalámbricas de corto alcance (WLAN). Se basa en un protocolo de acceso al medio y diferentes implementaciones de la capa física. Inicialmente, contaba con tres formas de realización: <b style= 'color:#5573C6;'>dispersión de secuencia directa (DS), salto de frecuencia (FH) e infrarrojo difuso (IR)</b>. La tecnología DS prevaleció por su simplicidad, ofreciendo velocidades de datos de 1 o 2Mbps en la banda de 2.4GHz. Luego, se introdujo 802.11b con velocidades de hasta 11Mbps. Se pueden utilizar tres canales ortogonales para evitar interferencias con los vecinos. Cuando la banda de 2.4GHz se saturó, llegó IEEE 802.11a en la banda de 5GHz, con hasta 12 canales y 54Mbps. Además, 802.11a utiliza OFDM para mayor eficiencia espectral. Se introdujo 802.11g para usar OFDM también en la banda de 2.4GHz, aprovechando sus ventajas sobre DS.
+            p Es un conjunto de estándares para redes inalámbricas de corto alcance (WLAN). Se basa en un protocolo de acceso al medio y diferentes implementaciones de la capa física. Inicialmente, contaba con tres formas de realización: <b style= 'color:#5573C6;'>dispersión de secuencia directa (DS), salto de frecuencia (FH) e infrarrojo difuso (IR)</b>. La tecnología DS prevaleció por su simplicidad, ofreciendo velocidades de datos de 1 o 2 Mbps en la banda de 2.4 GHz. Luego, se introdujo 802.11b con velocidades de hasta 11 Mbps. Se pueden utilizar tres canales ortogonales para evitar interferencias con los vecinos. Cuando la banda de 2.4 GHz se saturó, llegó IEEE 802.11a en la banda de 5 GHz, con hasta 12 canales y 54 Mbps. Además, 802.11a utiliza OFDM para mayor eficiencia espectral. Se introdujo 802.11g para usar OFDM también en la banda de 2.4 GHz, aprovechando sus ventajas sobre DS.
 
     separador
     #t_4_3.titulo-segundo.color-acento-botones(data-aos='fade-up-right')

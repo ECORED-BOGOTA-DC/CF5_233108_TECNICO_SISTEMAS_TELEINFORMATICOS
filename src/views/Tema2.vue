@@ -287,11 +287,11 @@
             .col-lg-6
               .tarjeta.tarjeta-borde-verde3.p-3.mb-2(data-aos="fade-left")
                 h5.text-center.mb-0 Nivel de Aplicación
-                p.text-center.mb-0 HTTP, FTP,POP3, TELNET...
+                p.text-center.mb-0 HTTP, FTP, POP3, TELNET...
 
               .tarjeta.tarjeta-borde-amarilla.p-3.mb-2(data-aos="fade-right")
                 h5.text-center.mb-0 Nivel de Transporte
-                p.text-center.mb-0 Conexión extremo a extremo y fiabilidad de los datos TCP,UDP
+                p.text-center.mb-0 Conexión extremo a extremo y fiabilidad de los datos TCP, UDP
 
               .tarjeta.tarjeta-borde-morada.p-3.mb-2(data-aos="fade-left")
                 h5.text-center.mb-0 Nivel de Red
@@ -358,7 +358,7 @@
                 figure
                   img(src='@/assets/curso/temas/tema2/img20.svg', alt='Imágen decorativa')
 
-    .row.bg-titulo3.align-items-center.p-2.mb-3(data-aos="fade-lwft")
+    .row.bg-titulo4.align-items-center.p-2.mb-3(data-aos="fade-lwft")
       h3.mb-3.mt-2 Configuración de una red de dos computadores
 
     h5.text-center.mb-5 Los siguientes pasos se desarrollan en el simulador Packet Tracer.
@@ -503,7 +503,7 @@
         .cajon.cajon-color-amarillo.p-4(data-aos="flip-up")
           p.mb-0 Muchos hogares combinan el acceso residencial de banda ancha (es decir, módems de cable o DSL) con la económica tecnología LAN inalámbrica para crear potentes redes domésticas.
 
-    .row.bg-titulo3.align-items-center.p-2.mb-3
+    .row.bg-titulo4.align-items-center.p-2.mb-3(data-aos="fade-lwft")
       h3.mb-3.mt-2 Acceso inalámbrico de área amplia
 
     .row.justify-content-center.align-items-center.mb-5

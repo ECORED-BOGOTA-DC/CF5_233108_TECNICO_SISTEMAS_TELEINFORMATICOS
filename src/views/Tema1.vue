@@ -45,7 +45,7 @@
         p(data-aos="fade-left") ¿Cómo podría transformar esta idea en una aplicación real de Internet? Dado que las aplicaciones se ejecutan en los sistemas finales, tendrá que escribir piezas de <i>software</i> que se ejecuten en los sistemas finales. Por ejemplo, podrías escribir tus piezas de <i>software</i> en Java, C o Python. Ahora, como estás desarrollando una aplicación de Internet distribuida, las piezas de <i>software</i> que se ejecutan en los diferentes sistemas finales tendrán que enviarse datos entre sí. Y aquí llegamos a una cuestión central, que nos lleva a la forma alternativa de describir <b>Internet como una plataforma para aplicaciones.</b> <b style= 'color:#5573C6;'>¿Cómo puede una pieza de aplicación que se ejecuta en un sistema final instruir a Internet para que entregue datos a otra pieza de <i>software</i> que se ejecuta en otro sistema final?</b>
 
     .cajon.color-acento-contenido.p-4.mb-5(data-aos="flip-up")
-      p.mb-0 Los sistemas finales conectados a Internet proporcionan una interfaz de programación de aplicaciones (API) que especifica cómo una pieza de <i>software</i> que se ejecuta en un sistema final pide a la infraestructura de Internet que <b>entregue datos a una pieza de <i>software</i> de destino</b> específica que se ejecuta en otro sistema final. La API de Internet es un conjunto de reglas que la pieza de <i>software</i> emisora debe seguir para que Internet pueda entregar los datos a la pieza de <i>software</i> de destino.
+      p.mb-0 Los sistemas finales conectados a Internet proporcionan una interfaz de programación de aplicaciones (API) que especifica cómo una pieza de <i>software</i> que se ejecuta en un sistema final, pide a la infraestructura de Internet que <b>entregue datos a una pieza de <i>software</i> de destino</b> específica que se ejecuta en otro sistema final. La API de Internet es un conjunto de reglas que la pieza de <i>software</i> emisora debe seguir para que Internet pueda entregar los datos a la pieza de <i>software</i> de destino.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
@@ -194,7 +194,7 @@
           span Sistemas finales de la red
 
         figure
-          img(src='@/assets/curso/temas/tema1/img15.png', alt='Figura que representa los sistemas finales de la red, los cuales están compuestos por:<br>Host-Sistema Final:<br> Se divide en dos categorías: clientes y servidores.<br> Para ejecutar programas de aplicaciones de navegación web, servidor web y servidor de correo.')
+          img(src='@/assets/curso/temas/tema1/img15.png', alt='Figura que representa los sistemas finales de la red, los cuales están compuestos por: Host-Sistema Final:  Se divide en dos categorías: clientes y servidores.  Para ejecutar programas de aplicaciones de navegación web, servidor web y servidor de correo.')
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
